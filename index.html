@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{ mobileMenu: false }" class="bg-gray-950 text-gray-100">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sport Spectrum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+<body class="font-sans tracking-wide">
+
+  <!-- Navbar -->
+  <header class="border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold text-white uppercase tracking-wider">Sport Spectrum</h1>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#platform" class="hover:text-teal-400 transition">Platform</a>
+        <a href="#insights" class="hover:text-teal-400 transition">Insights</a>
+        <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
+      </nav>
+      <button @click="mobileMenu = !mobileMenu" class="md:hidden text-white text-xl">☰</button>
+    </div>
+    <div x-show="mobileMenu" class="md:hidden px-4 pb-4 space-y-2 text-sm">
+      <a href="#platform" class="block hover:text-teal-400">Platform</a>
+      <a href="#insights" class="block hover:text-teal-400">Insights</a>
+      <a href="#contact" class="block hover:text-teal-400">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-[85vh] flex items-center justify-center text-center overflow-hidden">
+    <img src="https://i.ibb.co/840yDf5f/vo.png"
+         alt="Sport Banner"
+         class="absolute inset-0 w-full h-full object-cover opacity-30" />
+    <div class="absolute inset-0 bg-gray-950 bg-opacity-80"></div>
+    <div class="relative z-10 px-6">
+      <h2 class="text-5xl font-black uppercase text-white mb-4 tracking-tight">Dominate With Data</h2>
+      <p class="text-lg text-gray-300 mb-6 max-w-xl mx-auto">Sport Spectrum delivers cutting-edge analytics for volleyball and high-performance teams across disciplines. Precision. Power. Insight.</p>
+      <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">Explore Platform</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-10">
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+      <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">Athlete Intelligence</h3>
+      <p class="text-gray-400 text-sm">Track velocity, reaction time, and biomechanical efficiency across sports. Built for elite performance.</p>
+    </div>
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+      <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">Team Dynamics</h3>
+      <p class="text-gray-400 text-sm">Analyze formations, rotations, and synergy. From volleyball courts to football fields — we decode team flow.</p>
+    </div>
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+      <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">Live Match Engine</h3>
+      <p class="text-gray-400 text-sm">Real-time data streams for tactical decisions. AI-powered insights delivered mid-game.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gray-900 py-20 text-center">
+    <h2 class="text-3xl font-extrabold mb-4 uppercase text-white">Ready to unlock your spectrum?</h2>
+    <p class="text-gray-400 mb-6 max-w-xl mx-auto">Join coaches, analysts, and athletes using Sport Spectrum to outthink, outplay, and outperform.</p>
+    <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">Request Demo</a>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-20" id="platform">
+    <h2 class="text-3xl font-extrabold text-white mb-6 uppercase">Platform</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <p class="text-gray-400 text-lg mb-4">Sport Spectrum is a high-performance analytics engine built for coaches, athletes, and analysts. Our platform transforms raw data into tactical intelligence — fast, accurate, and actionable.</p>
+        <ul class="space-y-3 text-gray-300 text-sm">
+          <li>⚡ Real-time match tracking</li>
+          <li>📊 Advanced player metrics</li>
+          <li>🧠 AI-powered performance predictions</li>
+          <li>📈 Tactical heatmaps and movement analysis</li>
+          <li>🔐 Secure cloud-based data storage</li>
+        </ul>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg border border-teal-500 shadow-md">
+        <h3 class="text-teal-400 text-xl font-bold mb-3 uppercase">Tech Stack</h3>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          <li>🧠 AI & neural networks</li>
+          <li>🎥 Computer vision</li>
+          <li>📊 Machine learning pipelines</li>
+          <li>☁️ Cloud-native architecture</li>
+          <li>⚡ Real-time data engine</li>
+          <li>🛠️ Moder Interface</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 border-t border-gray-800" id="insights">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+      <h2 class="text-5xl font-black text-teal-400 mb-10 uppercase tracking-tight text-center">Insights Engine</h2>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Tactical Intel -->
+        <div>
+          <p class="text-gray-300 text-lg mb-6 leading-relaxed">
+            This isn’t just data. It’s tactical firepower. Sport Spectrum’s Insights Engine turns raw performance into visual intelligence — live, predictive, and ruthless.
+          </p>
+          <ul class="space-y-5 text-sm text-gray-400">
+            <li><span class="text-teal-400 font-bold">📍 Heatmaps:</span> Know where your players dominate — and where they disappear.</li>
+            <li><span class="text-teal-400 font-bold">📈 Trend Graphs:</span> Spot momentum shifts before your opponent does.</li>
+            <li><span class="text-teal-400 font-bold">🧠 AI Forecasts:</span> Predict match outcomes, player fatigue, and tactical risks.</li>
+            <li><span class="text-teal-400 font-bold">📹 Data-Linked Video:</span> Sync stats with footage. Every play, every pixel, decoded.</li>
+            <li><span class="text-teal-400 font-bold">🔍 Opponent Profiles:</span> Automated scouting reports that expose weaknesses.</li>
+          </ul>
+        </div>
+
+        <!-- Visual Card -->
+        <div class="bg-gray-900 p-8 rounded-xl border border-teal-500 shadow-lg hover:shadow-teal-500/30 transition">
+          <h3 class="text-teal-400 text-2xl font-bold mb-4 uppercase">Coming Soon...</h3>
+          <p class="text-gray-400 text-sm mb-6">
+            National teams. Pro clubs. Tactical masterminds. Sport Spectrum is the silent weapon behind smarter wins.
+          </p>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>🏐 Volleyball: Serve zones, block timing, rotation mastery</li>
+            <li>⚽ Football: Press maps, formation shifts, tempo control</li>
+            <li>🏀 Basketball: Defensive traps, shot density, clutch analysis</li>
+            <li>🎾 Tennis: Rally depth, fatigue curves, serve prediction</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 text-center">
+        <a href="#" class="px-10 py-4 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full text-lg tracking-wide transition">Activate Insights</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 border-t border-gray-800 text-gray-400">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
+      <!-- Company Info -->
+      <div id="contact">
+        <h3 class="text-white text-xl font-bold mb-4 uppercase">Sport Spectrum</h3>
+        <p class="mb-2 text-sm">Analytics for volleyball and multi-sport teams. Built for speed, precision, and dominance.</p>
+        <p class="mb-2 text-sm">📍 123 Arena Avenue, Warsaw, Poland</p>
+        <p class="mb-2 text-sm">✉️ contact@sportspectrum.io</p>
+        <p class="text-sm">📞 +48 123 456 789</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-white text-lg font-semibold mb-4 uppercase">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#platform" class="hover:text-teal-400">Platform</a></li>
+          <li><a href="#insights" class="hover:text-teal-400">Insights</a></li>
+          <li><a href="#contact" class="hover:text-teal-400">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div>
+        <h4 class="text-white text-lg font-semibold mb-4 uppercase">Connect</h4>
+        <div class="flex space-x-4 text-sm">
+          <a href="#" class="hover:text-teal-400">🐦 Twitter</a>
+          <a href="#" class="hover:text-teal-400">📘 Facebook</a>
+          <a href="#" class="hover:text-teal-400">📸 Instagram</a>
+          <a href="#" class="hover:text-teal-400">💼 LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 text-center py-4 text-xs text-gray-600">
+      &copy; 2025 Sport Spectrum. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
+
