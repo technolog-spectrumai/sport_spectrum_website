@@ -17,6 +17,9 @@
         <a href="#platform" class="hover:text-teal-400 transition">{{ i18n "nav_platform" }}</a>
         <a href="#insights" class="hover:text-teal-400 transition">{{ i18n "nav_insights" }}</a>
         <a href="#contact" class="hover:text-teal-400 transition">{{ i18n "nav_contact" }}</a>
+            <a href="/en/" :class="dark ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-indigo-600'">🇬🇧</a>
+  <a href="/pl/"  :class="dark ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-indigo-600'">🇵🇱 </a>
+  <a href="/fr/" :class="dark ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-indigo-600'">🇫🇷 </a>
       </nav>
       <button @click="mobileMenu = !mobileMenu" class="md:hidden text-white text-xl">☰</button>
     </div>
@@ -24,6 +27,9 @@
       <a href="#platform" class="block hover:text-teal-400">{{ i18n "nav_platform" }}</a>
       <a href="#insights" class="block hover:text-teal-400">{{ i18n "nav_insights" }}</a>
       <a href="#contact" class="block hover:text-teal-400">{{ i18n "nav_contact" }}</a>
+          <a href="/en/" :class="dark ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-indigo-600'">🇬🇧</a>
+  <a href="/pl/"  :class="dark ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-indigo-600'">🇵🇱 </a>
+  <a href="/fr/" :class="dark ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-indigo-600'">🇫🇷 </a>
     </div>
   </header>
 
