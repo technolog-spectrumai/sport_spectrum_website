@@ -44,15 +44,21 @@
     </div>
   </section>
 
-  <!-- Features -->
-  <section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-10">
-    {{ range .Site.Data.features }}
-    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
-      <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">{{ i18n .title }}</h3>
-      <p class="text-gray-400 text-sm">{{ i18n .description }}</p>
-    </div>
-    {{ end }}
-  </section>
+    <!-- Features -->
+    <section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-10">
+      <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">{{ i18n "feature_athlete_intelligence_title" }}</h3>
+        <p class="text-gray-400 text-sm">{{ i18n "feature_athlete_intelligence_description" }}</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">{{ i18n "feature_team_dynamics_title" }}</h3>
+        <p class="text-gray-400 text-sm">{{ i18n "feature_team_dynamics_description" }}</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+        <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">{{ i18n "feature_live_match_engine_title" }}</h3>
+        <p class="text-gray-400 text-sm">{{ i18n "feature_live_match_engine_description" }}</p>
+      </div>
+    </section>
 
   <!-- CTA -->
   <section class="bg-gray-900 py-20 text-center">

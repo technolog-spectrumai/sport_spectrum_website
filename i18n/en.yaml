@@ -56,4 +56,16 @@
   translation: "LinkedIn"
 - id: all_rights_reserved
   translation: "All rights reserved."
+- id: feature_athlete_intelligence_title
+  translation: "Athlete Intelligence"
+- id: feature_athlete_intelligence_description
+  translation: "Track velocity, reaction time, and biomechanical efficiency across sports. Built for elite performance."
+- id: feature_team_dynamics_title
+  translation: "Team Dynamics"
+- id: feature_team_dynamics_description
+  translation: "Analyze formations, rotations, and synergy. From volleyball courts to football fields — we decode team flow."
+- id: feature_live_match_engine_title
+  translation: "Live Match Engine"
+- id: feature_live_match_engine_description
+  translation: "Real-time data streams for tactical decisions. AI-powered insights delivered mid-game."
 

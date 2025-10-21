@@ -56,4 +56,16 @@
   translation: "LinkedIn"
 - id: all_rights_reserved
   translation: "Wszelkie prawa zastrzeżone."
+- id: feature_athlete_intelligence_title
+  translation: "Inteligencja Zawodnika"
+- id: feature_athlete_intelligence_description
+  translation: "Śledź prędkość, czas reakcji i efektywność biomechaniczną w różnych dyscyplinach. Stworzone dla elity."
+- id: feature_team_dynamics_title
+  translation: "Dynamika Zespołu"
+- id: feature_team_dynamics_description
+  translation: "Analizuj formacje, rotacje i synergię. Od boisk siatkarskich po piłkarskie — odszyfrowujemy przepływ zespołu."
+- id: feature_live_match_engine_title
+  translation: "Silnik Meczu na Żywo"
+- id: feature_live_match_engine_description
+  translation: "Strumienie danych w czasie rzeczywistym dla decyzji taktycznych. Wgląd wspierany przez AI podczas gry."
 
