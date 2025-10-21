@@ -68,4 +68,32 @@
   translation: "Live Match Engine"
 - id: feature_live_match_engine_description
   translation: "Real-time data streams for tactical decisions. AI-powered insights delivered mid-game."
+- id: platform_title
+  translation: "Platform"
+- id: platform_description
+  translation: "Sport Spectrum is a high-performance analytics engine built for coaches, athletes, and analysts. Our platform transforms raw data into tactical intelligence — fast, accurate, and actionable."
+- id: platform_feature_match_tracking
+  translation: "⚡ Real-time match tracking"
+- id: platform_feature_player_metrics
+  translation: "📊 Advanced player metrics"
+- id: platform_feature_ai_predictions
+  translation: "🧠 AI-powered performance predictions"
+- id: platform_feature_heatmaps
+  translation: "📈 Tactical heatmaps and movement analysis"
+- id: platform_feature_cloud_storage
+  translation: "🔐 Secure cloud-based data storage"
+- id: tech_stack_title
+  translation: "Tech Stack"
+- id: tech_ai_neural
+  translation: "🧠 AI & neural networks"
+- id: tech_computer_vision
+  translation: "🎥 Computer vision"
+- id: tech_ml_pipelines
+  translation: "📊 Machine learning pipelines"
+- id: tech_cloud_architecture
+  translation: "☁️ Cloud-native architecture"
+- id: tech_real_time_engine
+  translation: "⚡ Real-time data engine"
+- id: tech_moder_interface
+  translation: "🛠️ Moder Interface"
 

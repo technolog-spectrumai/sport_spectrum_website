@@ -68,4 +68,32 @@
   translation: "Silnik Meczu na Żywo"
 - id: feature_live_match_engine_description
   translation: "Strumienie danych w czasie rzeczywistym dla decyzji taktycznych. Wgląd wspierany przez AI podczas gry."
+- id: platform_title
+  translation: "Platforma"
+- id: platform_description
+  translation: "Sport Spectrum to silnik analityczny wysokiej wydajności stworzony dla trenerów, sportowców i analityków. Nasza platforma przekształca surowe dane w taktyczną inteligencję — szybko, dokładnie i skutecznie."
+- id: platform_feature_match_tracking
+  translation: "⚡ Śledzenie meczu w czasie rzeczywistym"
+- id: platform_feature_player_metrics
+  translation: "📊 Zaawansowane metryki zawodników"
+- id: platform_feature_ai_predictions
+  translation: "🧠 Prognozy wydajności wspierane przez AI"
+- id: platform_feature_heatmaps
+  translation: "📈 Mapy cieplne i analiza ruchu"
+- id: platform_feature_cloud_storage
+  translation: "🔐 Bezpieczne przechowywanie danych w chmurze"
+- id: tech_stack_title
+  translation: "Stos technologiczny"
+- id: tech_ai_neural
+  translation: "🧠 Sztuczna inteligencja i sieci neuronowe"
+- id: tech_computer_vision
+  translation: "🎥 Wizja komputerowa"
+- id: tech_ml_pipelines
+  translation: "📊 Procesy uczenia maszynowego"
+- id: tech_cloud_architecture
+  translation: "☁️ Architektura natywna dla chmury"
+- id: tech_real_time_engine
+  translation: "⚡ Silnik danych w czasie rzeczywistym"
+- id: tech_moder_interface
+  translation: "🛠️ Interfejs Moder"
 

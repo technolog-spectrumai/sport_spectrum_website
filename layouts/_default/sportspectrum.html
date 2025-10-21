@@ -67,28 +67,33 @@
     <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">{{ i18n "cta_button" }}</a>
   </section>
 
-  <!-- Platform -->
-  <section class="max-w-7xl mx-auto px-6 py-20" id="platform">
-    <h2 class="text-3xl font-extrabold text-white mb-6 uppercase">{{ i18n "platform_title" }}</h2>
-    <div class="grid md:grid-cols-2 gap-10">
-      <div>
-        <p class="text-gray-400 text-lg mb-4">{{ i18n "platform_description" }}</p>
-        <ul class="space-y-3 text-gray-300 text-sm">
-          {{ range .Site.Data.platform.features }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
+    <!-- Platform -->
+    <section class="max-w-7xl mx-auto px-6 py-20" id="platform">
+      <h2 class="text-3xl font-extrabold text-white mb-6 uppercase">{{ i18n "platform_title" }}</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <p class="text-gray-400 text-lg mb-4">{{ i18n "platform_description" }}</p>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>{{ i18n "platform_feature_match_tracking" }}</li>
+            <li>{{ i18n "platform_feature_player_metrics" }}</li>
+            <li>{{ i18n "platform_feature_ai_predictions" }}</li>
+            <li>{{ i18n "platform_feature_heatmaps" }}</li>
+            <li>{{ i18n "platform_feature_cloud_storage" }}</li>
+          </ul>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-lg border border-teal-500 shadow-md">
+          <h3 class="text-teal-400 text-xl font-bold mb-3 uppercase">{{ i18n "tech_stack_title" }}</h3>
+          <ul class="space-y-2 text-gray-300 text-sm">
+            <li>{{ i18n "tech_ai_neural" }}</li>
+            <li>{{ i18n "tech_computer_vision" }}</li>
+            <li>{{ i18n "tech_ml_pipelines" }}</li>
+            <li>{{ i18n "tech_cloud_architecture" }}</li>
+            <li>{{ i18n "tech_real_time_engine" }}</li>
+            <li>{{ i18n "tech_moder_interface" }}</li>
+          </ul>
+        </div>
       </div>
-      <div class="bg-gray-900 p-6 rounded-lg border border-teal-500 shadow-md">
-        <h3 class="text-teal-400 text-xl font-bold mb-3 uppercase">{{ i18n "tech_stack_title" }}</h3>
-        <ul class="space-y-2 text-gray-300 text-sm">
-          {{ range .Site.Data.platform.tech }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Insights -->
   <section class="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 border-t border-gray-800" id="insights">
