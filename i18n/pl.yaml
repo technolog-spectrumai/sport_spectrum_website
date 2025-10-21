@@ -96,4 +96,43 @@
   translation: "⚡ Silnik danych w czasie rzeczywistym"
 - id: tech_moder_interface
   translation: "🛠️ Interfejs Moder"
+- id: insights_title
+  translation: "Silnik Wglądu"
+- id: insights_description
+  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i bezlitosną."
+- id: insights_heatmaps_label
+  translation: "Mapy cieplne:"
+- id: insights_heatmaps_text
+  translation: "Dowiedz się, gdzie twoi zawodnicy dominują — i gdzie znikają."
+- id: insights_trend_graphs_label
+  translation: "Wykresy trendów:"
+- id: insights_trend_graphs_text
+  translation: "Zauważ zmiany dynamiki zanim zrobi to przeciwnik."
+- id: insights_ai_forecasts_label
+  translation: "Prognozy AI:"
+- id: insights_ai_forecasts_text
+  translation: "Przewiduj wyniki meczów, zmęczenie zawodników i ryzyko taktyczne."
+- id: insights_video_label
+  translation: "Wideo powiązane z danymi:"
+- id: insights_video_text
+  translation: "Synchronizuj statystyki z nagraniami. Każda akcja, każdy piksel — rozszyfrowany."
+- id: insights_opponent_profiles_label
+  translation: "Profile przeciwników:"
+- id: insights_opponent_profiles_text
+  translation: "Zautomatyzowane raporty scoutingowe ujawniające słabości."
+- id: coming_soon_title
+  translation: "Wkrótce dostępne..."
+- id: coming_soon_description
+  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie. Sport Spectrum to cicha broń za inteligentnymi zwycięstwami."
+- id: coming_soon_volleyball
+  translation: "🏐 Siatkówka: strefy serwisu, timing bloków, rotacje"
+- id: coming_soon_football
+  translation: "⚽ Piłka nożna: mapy pressingu, zmiany formacji, kontrola tempa"
+- id: coming_soon_basketball
+  translation: "🏀 Koszykówka: pułapki defensywne, gęstość rzutów, analiza kluczowych momentów"
+- id: coming_soon_tennis
+  translation: "🎾 Tenis: głębokość wymian, krzywe zmęczenia, prognozy serwisu"
+- id: insights_cta
+  translation: "Aktywuj Wgląd"
+
 

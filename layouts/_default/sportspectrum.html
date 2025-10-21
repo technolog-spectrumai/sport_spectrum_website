@@ -95,34 +95,43 @@
       </div>
     </section>
 
-  <!-- Insights -->
-  <section class="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 border-t border-gray-800" id="insights">
-    <div class="max-w-7xl mx-auto px-6 py-24">
-      <h2 class="text-5xl font-black text-teal-400 mb-10 uppercase tracking-tight text-center">{{ i18n "insights_title" }}</h2>
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <p class="text-gray-300 text-lg mb-6 leading-relaxed">{{ i18n "insights_description" }}</p>
-          <ul class="space-y-5 text-sm text-gray-400">
-            {{ range .Site.Data.insights.features }}
-            <li><span class="text-teal-400 font-bold">{{ .icon }}</span> {{ .text }}</li>
-            {{ end }}
-          </ul>
+    <!-- Insights -->
+    <section class="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 border-t border-gray-800" id="insights">
+      <div class="max-w-7xl mx-auto px-6 py-24">
+        <h2 class="text-5xl font-black text-teal-400 mb-10 uppercase tracking-tight text-center">{{ i18n "insights_title" }}</h2>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <!-- Tactical Intel -->
+          <div>
+            <p class="text-gray-300 text-lg mb-6 leading-relaxed">{{ i18n "insights_description" }}</p>
+            <ul class="space-y-5 text-sm text-gray-400">
+              <li><span class="text-teal-400 font-bold">📍 {{ i18n "insights_heatmaps_label" }}</span> {{ i18n "insights_heatmaps_text" }}</li>
+              <li><span class="text-teal-400 font-bold">📈 {{ i18n "insights_trend_graphs_label" }}</span> {{ i18n "insights_trend_graphs_text" }}</li>
+              <li><span class="text-teal-400 font-bold">🧠 {{ i18n "insights_ai_forecasts_label" }}</span> {{ i18n "insights_ai_forecasts_text" }}</li>
+              <li><span class="text-teal-400 font-bold">📹 {{ i18n "insights_video_label" }}</span> {{ i18n "insights_video_text" }}</li>
+              <li><span class="text-teal-400 font-bold">🔍 {{ i18n "insights_opponent_profiles_label" }}</span> {{ i18n "insights_opponent_profiles_text" }}</li>
+            </ul>
+          </div>
+
+          <!-- Visual Card -->
+          <div class="bg-gray-900 p-8 rounded-xl border border-teal-500 shadow-lg hover:shadow-teal-500/30 transition">
+            <h3 class="text-teal-400 text-2xl font-bold mb-4 uppercase">{{ i18n "coming_soon_title" }}</h3>
+            <p class="text-gray-400 text-sm mb-6">{{ i18n "coming_soon_description" }}</p>
+            <ul class="space-y-3 text-gray-300 text-sm">
+              <li>{{ i18n "coming_soon_volleyball" }}</li>
+              <li>{{ i18n "coming_soon_football" }}</li>
+              <li>{{ i18n "coming_soon_basketball" }}</li>
+              <li>{{ i18n "coming_soon_tennis" }}</li>
+            </ul>
+          </div>
         </div>
-        <div class="bg-gray-900 p-8 rounded-xl border border-teal-500 shadow-lg hover:shadow-teal-500/30 transition">
-          <h3 class="text-teal-400 text-2xl font-bold mb-4 uppercase">{{ i18n "coming_soon_title" }}</h3>
-          <p class="text-gray-400 text-sm mb-6">{{ i18n "coming_soon_description" }}</p>
-          <ul class="space-y-3 text-gray-300 text-sm">
-            {{ range .Site.Data.insights.sports }}
-            <li>{{ . }}</li>
-            {{ end }}
-          </ul>
+
+        <!-- CTA -->
+        <div class="mt-16 text-center">
+          <a href="#" class="px-10 py-4 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full text-lg tracking-wide transition">{{ i18n "insights_cta" }}</a>
         </div>
       </div>
-      <div class="mt-16 text-center">
-        <a href="#" class="px-10 py-4 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full text-lg tracking-wide transition">{{ i18n "insights_cta" }}</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Footer -->
   <footer class="bg-gray-950 border-t border-gray-800 text-gray-400">

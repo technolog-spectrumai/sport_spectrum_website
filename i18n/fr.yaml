@@ -96,4 +96,42 @@
   translation: "⚡ Moteur de données en temps réel"
 - id: tech_moder_interface
   translation: "🛠️ Interface Moder"
+- id: insights_title
+  translation: "Moteur d’Analyses"
+- id: insights_description
+  translation: "Ce ne sont pas juste des données. C’est une puissance tactique. Le moteur d’analyses de Sport Spectrum transforme la performance brute en intelligence visuelle — en direct, prédictive et impitoyable."
+- id: insights_heatmaps_label
+  translation: "Cartes thermiques:"
+- id: insights_heatmaps_text
+  translation: "Sachez où vos joueurs dominent — et où ils disparaissent."
+- id: insights_trend_graphs_label
+  translation: "Graphiques de tendances:"
+- id: insights_trend_graphs_text
+  translation: "Repérez les changements de dynamique avant vos adversaires."
+- id: insights_ai_forecasts_label
+  translation: "Prévisions IA:"
+- id: insights_ai_forecasts_text
+  translation: "Prédisez les résultats, la fatigue des joueurs et les risques tactiques."
+- id: insights_video_label
+  translation: "Vidéo liée aux données:"
+- id: insights_video_text
+  translation: "Synchronisez les statistiques avec les vidéos. Chaque action, chaque pixel, décrypté."
+- id: insights_opponent_profiles_label
+  translation: "Profils des adversaires:"
+- id: insights_opponent_profiles_text
+  translation: "Rapports de scouting automatisés révélant les faiblesses."
+- id: coming_soon_title
+  translation: "Bientôt disponible..."
+- id: coming_soon_description
+  translation: "Équipes nationales. Clubs professionnels. Stratèges tactiques. Sport Spectrum est l’arme secrète derrière les victoires intelligentes."
+- id: coming_soon_volleyball
+  translation: "🏐 Volley-ball : zones de service, timing des blocs, maîtrise des rotations"
+- id: coming_soon_football
+  translation: "⚽ Football : cartes de pressing, changements de formation, contrôle du tempo"
+- id: coming_soon_basketball
+  translation: "🏀 Basket-ball : pièges défensifs, densité de tirs, analyse des moments clés"
+- id: coming_soon_tennis
+  translation: "🎾 Tennis : profondeur des échanges, courbes de fatigue, prédiction du service"
+- id: insights_cta
+  translation: "Activer les analyses"
 

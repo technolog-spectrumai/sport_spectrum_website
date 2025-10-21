@@ -96,4 +96,42 @@
   translation: "⚡ Real-time data engine"
 - id: tech_moder_interface
   translation: "🛠️ Moder Interface"
+- id: insights_title
+  translation: "Insights Engine"
+- id: insights_description
+  translation: "This isn’t just data. It’s tactical firepower. Sport Spectrum’s Insights Engine turns raw performance into visual intelligence — live, predictive, and ruthless."
+- id: insights_heatmaps_label
+  translation: "Heatmaps:"
+- id: insights_heatmaps_text
+  translation: "Know where your players dominate — and where they disappear."
+- id: insights_trend_graphs_label
+  translation: "Trend Graphs:"
+- id: insights_trend_graphs_text
+  translation: "Spot momentum shifts before your opponent does."
+- id: insights_ai_forecasts_label
+  translation: "AI Forecasts:"
+- id: insights_ai_forecasts_text
+  translation: "Predict match outcomes, player fatigue, and tactical risks."
+- id: insights_video_label
+  translation: "Data-Linked Video:"
+- id: insights_video_text
+  translation: "Sync stats with footage. Every play, every pixel, decoded."
+- id: insights_opponent_profiles_label
+  translation: "Opponent Profiles:"
+- id: insights_opponent_profiles_text
+  translation: "Automated scouting reports that expose weaknesses."
+- id: coming_soon_title
+  translation: "Coming Soon..."
+- id: coming_soon_description
+  translation: "National teams. Pro clubs. Tactical masterminds. Sport Spectrum is the silent weapon behind smarter wins."
+- id: coming_soon_volleyball
+  translation: "🏐 Volleyball: Serve zones, block timing, rotation mastery"
+- id: coming_soon_football
+  translation: "⚽ Football: Press maps, formation shifts, tempo control"
+- id: coming_soon_basketball
+  translation: "🏀 Basketball: Defensive traps, shot density, clutch analysis"
+- id: coming_soon_tennis
+  translation: "🎾 Tennis: Rally depth, fatigue curves, serve prediction"
+- id: insights_cta
+  translation: "Activate Insights"
 
