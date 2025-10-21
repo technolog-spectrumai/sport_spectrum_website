@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" x-data="{ mobileMenu: false }" class="bg-gray-950 text-gray-100">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ .Site.Title }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+<body class="font-sans tracking-wide">
+
+  <!-- Navbar -->
+  <header class="border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold text-white uppercase tracking-wider">{{ .Site.Title }}</h1>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#platform" class="hover:text-teal-400 transition">{{ i18n "nav_platform" }}</a>
+        <a href="#insights" class="hover:text-teal-400 transition">{{ i18n "nav_insights" }}</a>
+        <a href="#contact" class="hover:text-teal-400 transition">{{ i18n "nav_contact" }}</a>
+      </nav>
+      <button @click="mobileMenu = !mobileMenu" class="md:hidden text-white text-xl">☰</button>
+    </div>
+    <div x-show="mobileMenu" class="md:hidden px-4 pb-4 space-y-2 text-sm">
+      <a href="#platform" class="block hover:text-teal-400">{{ i18n "nav_platform" }}</a>
+      <a href="#insights" class="block hover:text-teal-400">{{ i18n "nav_insights" }}</a>
+      <a href="#contact" class="block hover:text-teal-400">{{ i18n "nav_contact" }}</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-[85vh] flex items-center justify-center text-center overflow-hidden">
+    <img src="https://i.ibb.co/gX3MHjz/game.png" alt="game background" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gray-950 bg-opacity-80"></div>
+    <div class="relative z-10 px-6">
+      <h2 class="text-5xl font-black uppercase text-white mb-4 tracking-tight">{{ i18n "hero_title" }}</h2>
+      <p class="text-lg text-gray-300 mb-6 max-w-xl mx-auto">{{ i18n "hero_description" }}</p>
+      <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">{{ i18n "hero_cta" }}</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-10">
+    {{ range .Site.Data.features }}
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:shadow-xl transition">
+      <h3 class="text-xl font-bold text-teal-400 mb-2 uppercase">{{ i18n .title }}</h3>
+      <p class="text-gray-400 text-sm">{{ i18n .description }}</p>
+    </div>
+    {{ end }}
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gray-900 py-20 text-center">
+    <h2 class="text-3xl font-extrabold mb-4 uppercase text-white">{{ i18n "cta_title" }}</h2>
+    <p class="text-gray-400 mb-6 max-w-xl mx-auto">{{ i18n "cta_description" }}</p>
+    <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">{{ i18n "cta_button" }}</a>
+  </section>
+
+  <!-- Platform -->
+  <section class="max-w-7xl mx-auto px-6 py-20" id="platform">
+    <h2 class="text-3xl font-extrabold text-white mb-6 uppercase">{{ i18n "platform_title" }}</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <p class="text-gray-400 text-lg mb-4">{{ i18n "platform_description" }}</p>
+        <ul class="space-y-3 text-gray-300 text-sm">
+          {{ range .Site.Data.platform.features }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg border border-teal-500 shadow-md">
+        <h3 class="text-teal-400 text-xl font-bold mb-3 uppercase">{{ i18n "tech_stack_title" }}</h3>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          {{ range .Site.Data.platform.tech }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights -->
+  <section class="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 border-t border-gray-800" id="insights">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+      <h2 class="text-5xl font-black text-teal-400 mb-10 uppercase tracking-tight text-center">{{ i18n "insights_title" }}</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-gray-300 text-lg mb-6 leading-relaxed">{{ i18n "insights_description" }}</p>
+          <ul class="space-y-5 text-sm text-gray-400">
+            {{ range .Site.Data.insights.features }}
+            <li><span class="text-teal-400 font-bold">{{ .icon }}</span> {{ .text }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="bg-gray-900 p-8 rounded-xl border border-teal-500 shadow-lg hover:shadow-teal-500/30 transition">
+          <h3 class="text-teal-400 text-2xl font-bold mb-4 uppercase">{{ i18n "coming_soon_title" }}</h3>
+          <p class="text-gray-400 text-sm mb-6">{{ i18n "coming_soon_description" }}</p>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            {{ range .Site.Data.insights.sports }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="mt-16 text-center">
+        <a href="#" class="px-10 py-4 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full text-lg tracking-wide transition">{{ i18n "insights_cta" }}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 border-t border-gray-800 text-gray-400">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
+      <div id="contact">
+        <h3 class="text-white text-xl font-bold mb-4 uppercase">{{ .Site.Title }}</h3>
+        <p class="mb-2 text-sm">{{ i18n "footer_description" }}</p>
+        <p class="mb-2 text-sm">📍 {{ i18n "footer_address" }}</p>
+        <p class="mb-2 text-sm">✉️ {{ i18n "footer_email" }}</p>
+        <p class="text-sm">📞 {{ i18n "footer_phone" }}</p>
+        <p class="text-xs sm:text-sm my-2">
+          {{ i18n "footer_affiliation" }}
+          <a href="https://spectrumai.netlify.app/" target="_blank" rel="noopener noreferrer" class="underline text-indigo-300 hover:text-white">Spectrum Group</a>.
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white text-lg font-semibold mb-4 uppercase">{{ i18n "quick_links" }}</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#platform" class="hover:text-teal-400">{{ i18n "nav_platform" }}</a></li>
+          <li><a href="#insights" class="hover:text-teal-400">{{ i18n "nav_insights" }}</a></li>
+          <li><a href="#contact" class="hover:text-teal-400">{{ i18n "nav_contact" }}</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div>
+        <h4 class="text-white text-lg font-semibold mb-4 uppercase">{{ i18n "connect_title" }}</h4>
+        <div class="flex space-x-4 text-sm">
+          <a href="#" class="hover:text-teal-400">🐦 {{ i18n "twitter" }}</a>
+          <a href="#" class="hover:text-teal-400">📘 {{ i18n "facebook" }}</a>
+          <a href="#" class="hover:text-teal-400">📸 {{ i18n "instagram" }}</a>
+          <a href="#" class="hover:text-teal-400">💼 {{ i18n "linkedin" }}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 text-center py-4 text-xs text-gray-600">
+      &copy; {{ now.Year }} {{ .Site.Title }}. {{ i18n "all_rights_reserved" }}
+    </div>
+  </footer>
+
+</body>
+</html>
+

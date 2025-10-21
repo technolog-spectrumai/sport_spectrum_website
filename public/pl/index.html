@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl" x-data="{ mobileMenu: false }" class="bg-gray-950 text-gray-100">
+<head>
+	<meta name="generator" content="Hugo 0.151.1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sport Spectrum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+<body class="font-sans tracking-wide">
+
+  
+  <header class="border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold text-white uppercase tracking-wider">Sport Spectrum</h1>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#platform" class="hover:text-teal-400 transition">Platforma</a>
+        <a href="#insights" class="hover:text-teal-400 transition">Wgląd</a>
+        <a href="#contact" class="hover:text-teal-400 transition">Kontakt</a>
+      </nav>
+      <button @click="mobileMenu = !mobileMenu" class="md:hidden text-white text-xl">☰</button>
+    </div>
+    <div x-show="mobileMenu" class="md:hidden px-4 pb-4 space-y-2 text-sm">
+      <a href="#platform" class="block hover:text-teal-400">Platforma</a>
+      <a href="#insights" class="block hover:text-teal-400">Wgląd</a>
+      <a href="#contact" class="block hover:text-teal-400">Kontakt</a>
+    </div>
+  </header>
+
+  
+  <section class="relative h-[85vh] flex items-center justify-center text-center overflow-hidden">
+    <img src="https://i.ibb.co/gX3MHjz/game.png" alt="game background" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gray-950 bg-opacity-80"></div>
+    <div class="relative z-10 px-6">
+      <h2 class="text-5xl font-black uppercase text-white mb-4 tracking-tight">Zdominuj dzięki danym</h2>
+      <p class="text-lg text-gray-300 mb-6 max-w-xl mx-auto">Sport Spectrum dostarcza nowoczesne analizy dla siatkówki i zespołów wysokiej wydajności. Precyzja. Moc. Wgląd.</p>
+      <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">Poznaj platformę</a>
+    </div>
+  </section>
+
+  
+  <section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-10">
+    
+  </section>
+
+  
+  <section class="bg-gray-900 py-20 text-center">
+    <h2 class="text-3xl font-extrabold mb-4 uppercase text-white">Gotowy, by odblokować swój potencjał?</h2>
+    <p class="text-gray-400 mb-6 max-w-xl mx-auto">Dołącz do trenerów, analityków i sportowców korzystających ze Sport Spectrum, aby myśleć szybciej, grać lepiej i wygrywać częściej.</p>
+    <a href="#" class="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-full transition">Poproś o demo</a>
+  </section>
+
+  
+  <section class="max-w-7xl mx-auto px-6 py-20" id="platform">
+    <h2 class="text-3xl font-extrabold text-white mb-6 uppercase">Platforma</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <p class="text-gray-400 text-lg mb-4">Sport Spectrum to silnik analityczny wysokiej wydajności stworzony dla trenerów, sportowców i analityków. Nasza platforma przekształca surowe dane w taktyczną inteligencję — szybko, dokładnie i skutecznie.</p>
+        <ul class="space-y-3 text-gray-300 text-sm">
+          
+        </ul>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg border border-teal-500 shadow-md">
+        <h3 class="text-teal-400 text-xl font-bold mb-3 uppercase">Stos technologiczny</h3>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 border-t border-gray-800" id="insights">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+      <h2 class="text-5xl font-black text-teal-400 mb-10 uppercase tracking-tight text-center">Silnik Wglądu</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-gray-300 text-lg mb-6 leading-relaxed">To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i bezlitosną.</p>
+          <ul class="space-y-5 text-sm text-gray-400">
+            
+          </ul>
+        </div>
+        <div class="bg-gray-900 p-8 rounded-xl border border-teal-500 shadow-lg hover:shadow-teal-500/30 transition">
+          <h3 class="text-teal-400 text-2xl font-bold mb-4 uppercase">Wkrótce dostępne...</h3>
+          <p class="text-gray-400 text-sm mb-6">Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie. Sport Spectrum to cicha broń za inteligentnymi zwycięstwami.</p>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            
+          </ul>
+        </div>
+      </div>
+      <div class="mt-16 text-center">
+        <a href="#" class="px-10 py-4 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full text-lg tracking-wide transition">Aktywuj Wgląd</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="bg-gray-950 border-t border-gray-800 text-gray-400">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
+      <div id="contact">
+        <h3 class="text-white text-xl font-bold mb-4 uppercase">Sport Spectrum</h3>
+        <p class="mb-2 text-sm">Analityka dla siatkówki i zespołów wielodyscyplinarnych. Stworzona dla szybkości, precyzji i dominacji.</p>
+        <p class="mb-2 text-sm">📍 ul. Arena 123, Warszawa, Polska</p>
+        <p class="mb-2 text-sm">✉️ technolog@spectrumai.pl</p>
+        <p class="text-sm">📞 &#43;48 123 456 789</p>
+        <p class="text-xs sm:text-sm my-2">
+          Dumny członek
+          <a href="https://spectrumai.netlify.app/" target="_blank" rel="noopener noreferrer" class="underline text-indigo-300 hover:text-white">Spectrum Group</a>.
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white text-lg font-semibold mb-4 uppercase">Szybkie linki</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#platform" class="hover:text-teal-400">Platforma</a></li>
+          <li><a href="#insights" class="hover:text-teal-400">Wgląd</a></li>
+          <li><a href="#contact" class="hover:text-teal-400">Kontakt</a></li>
+        </ul>
+      </div>
+
+      
+      <div>
+        <h4 class="text-white text-lg font-semibold mb-4 uppercase">Połącz się</h4>
+        <div class="flex space-x-4 text-sm">
+          <a href="#" class="hover:text-teal-400">🐦 Twitter</a>
+          <a href="#" class="hover:text-teal-400">📘 Facebook</a>
+          <a href="#" class="hover:text-teal-400">📸 Instagram</a>
+          <a href="#" class="hover:text-teal-400">💼 LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 text-center py-4 text-xs text-gray-600">
+      &copy; 2025 Sport Spectrum. Wszelkie prawa zastrzeżone.
+    </div>
+  </footer>
+
+</body>
+</html>
+

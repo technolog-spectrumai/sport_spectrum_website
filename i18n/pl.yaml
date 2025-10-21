@@ -1,0 +1,59 @@
+- id: nav_platform
+  translation: "Platforma"
+- id: nav_insights
+  translation: "Wgląd"
+- id: nav_contact
+  translation: "Kontakt"
+- id: hero_title
+  translation: "Zdominuj dzięki danym"
+- id: hero_description
+  translation: "Sport Spectrum dostarcza nowoczesne analizy dla siatkówki i zespołów wysokiej wydajności. Precyzja. Moc. Wgląd."
+- id: hero_cta
+  translation: "Poznaj platformę"
+- id: cta_title
+  translation: "Gotowy, by odblokować swój potencjał?"
+- id: cta_description
+  translation: "Dołącz do trenerów, analityków i sportowców korzystających ze Sport Spectrum, aby myśleć szybciej, grać lepiej i wygrywać częściej."
+- id: cta_button
+  translation: "Poproś o demo"
+- id: platform_title
+  translation: "Platforma"
+- id: platform_description
+  translation: "Sport Spectrum to silnik analityczny wysokiej wydajności stworzony dla trenerów, sportowców i analityków. Nasza platforma przekształca surowe dane w taktyczną inteligencję — szybko, dokładnie i skutecznie."
+- id: tech_stack_title
+  translation: "Stos technologiczny"
+- id: insights_title
+  translation: "Silnik Wglądu"
+- id: insights_description
+  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i bezlitosną."
+- id: coming_soon_title
+  translation: "Wkrótce dostępne..."
+- id: coming_soon_description
+  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie. Sport Spectrum to cicha broń za inteligentnymi zwycięstwami."
+- id: insights_cta
+  translation: "Aktywuj Wgląd"
+- id: footer_description
+  translation: "Analityka dla siatkówki i zespołów wielodyscyplinarnych. Stworzona dla szybkości, precyzji i dominacji."
+- id: footer_address
+  translation: "ul. Arena 123, Warszawa, Polska"
+- id: footer_email
+  translation: "technolog@spectrumai.pl"
+- id: footer_phone
+  translation: "+48 123 456 789"
+- id: footer_affiliation
+  translation: "Dumny członek"
+- id: quick_links
+  translation: "Szybkie linki"
+- id: connect_title
+  translation: "Połącz się"
+- id: twitter
+  translation: "Twitter"
+- id: facebook
+  translation: "Facebook"
+- id: instagram
+  translation: "Instagram"
+- id: linkedin
+  translation: "LinkedIn"
+- id: all_rights_reserved
+  translation: "Wszelkie prawa zastrzeżone."
+

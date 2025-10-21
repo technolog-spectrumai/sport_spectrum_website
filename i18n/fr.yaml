@@ -1,0 +1,59 @@
+- id: nav_platform
+  translation: "Plateforme"
+- id: nav_insights
+  translation: "Analyses"
+- id: nav_contact
+  translation: "Contact"
+- id: hero_title
+  translation: "Dominez grâce aux données"
+- id: hero_description
+  translation: "Sport Spectrum fournit des analyses de pointe pour le volleyball et les équipes de haut niveau. Précision. Puissance. Vision."
+- id: hero_cta
+  translation: "Explorer la plateforme"
+- id: cta_title
+  translation: "Prêt à libérer votre potentiel ?"
+- id: cta_description
+  translation: "Rejoignez les entraîneurs, analystes et athlètes qui utilisent Sport Spectrum pour anticiper, surpasser et gagner."
+- id: cta_button
+  translation: "Demander une démo"
+- id: platform_title
+  translation: "Plateforme"
+- id: platform_description
+  translation: "Sport Spectrum est un moteur d’analyse haute performance conçu pour les entraîneurs, les athlètes et les analystes. Notre plateforme transforme les données brutes en intelligence tactique — rapide, précise et exploitable."
+- id: tech_stack_title
+  translation: "Technologies utilisées"
+- id: insights_title
+  translation: "Moteur d’Analyses"
+- id: insights_description
+  translation: "Ce ne sont pas juste des données. C’est une puissance tactique. Le moteur d’analyses de Sport Spectrum transforme la performance brute en intelligence visuelle — en direct, prédictive et impitoyable."
+- id: coming_soon_title
+  translation: "Bientôt disponible..."
+- id: coming_soon_description
+  translation: "Équipes nationales. Clubs professionnels. Stratèges tactiques. Sport Spectrum est l’arme secrète derrière les victoires intelligentes."
+- id: insights_cta
+  translation: "Activer les analyses"
+- id: footer_description
+  translation: "Analytique pour le volleyball et les équipes multisports. Conçu pour la vitesse, la précision et la domination."
+- id: footer_address
+  translation: "123 Avenue de l’Arène, Varsovie, Pologne"
+- id: footer_email
+  translation: "technolog@spectrumai.pl"
+- id: footer_phone
+  translation: "+48 123 456 789"
+- id: footer_affiliation
+  translation: "Membre fier du"
+- id: quick_links
+  translation: "Liens rapides"
+- id: connect_title
+  translation: "Réseaux sociaux"
+- id: twitter
+  translation: "Twitter"
+- id: facebook
+  translation: "Facebook"
+- id: instagram
+  translation: "Instagram"
+- id: linkedin
+  translation: "LinkedIn"
+- id: all_rights_reserved
+  translation: "Tous droits réservés."
+

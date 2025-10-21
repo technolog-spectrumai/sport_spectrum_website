@@ -1,0 +1,59 @@
+- id: nav_platform
+  translation: "Platform"
+- id: nav_insights
+  translation: "Insights"
+- id: nav_contact
+  translation: "Contact"
+- id: hero_title
+  translation: "Dominate With Data"
+- id: hero_description
+  translation: "Sport Spectrum delivers cutting-edge analytics for volleyball and high-performance teams across disciplines. Precision. Power. Insight."
+- id: hero_cta
+  translation: "Explore Platform"
+- id: cta_title
+  translation: "Ready to unlock your spectrum?"
+- id: cta_description
+  translation: "Join coaches, analysts, and athletes using Sport Spectrum to outthink, outplay, and outperform."
+- id: cta_button
+  translation: "Request Demo"
+- id: platform_title
+  translation: "Platform"
+- id: platform_description
+  translation: "Sport Spectrum is a high-performance analytics engine built for coaches, athletes, and analysts..."
+- id: tech_stack_title
+  translation: "Tech Stack"
+- id: insights_title
+  translation: "Insights Engine"
+- id: insights_description
+  translation: "This isn’t just data. It’s tactical firepower..."
+- id: coming_soon_title
+  translation: "Coming Soon..."
+- id: coming_soon_description
+  translation: "National teams. Pro clubs. Tactical masterminds..."
+- id: insights_cta
+  translation: "Activate Insights"
+- id: footer_description
+  translation: "Analytics for volleyball and multi-sport teams..."
+- id: footer_address
+  translation: "123 Arena Avenue, Warsaw, Poland"
+- id: footer_email
+  translation: "technolog@spectrumai.pl"
+- id: footer_phone
+  translation: "+48 123 456 789"
+- id: footer_affiliation
+  translation: "A proud member of the"
+- id: quick_links
+  translation: "Quick Links"
+- id: connect_title
+  translation: "Connect"
+- id: twitter
+  translation: "Twitter"
+- id: facebook
+  translation: "Facebook"
+- id: instagram
+  translation: "Instagram"
+- id: linkedin
+  translation: "LinkedIn"
+- id: all_rights_reserved
+  translation: "All rights reserved."
+
