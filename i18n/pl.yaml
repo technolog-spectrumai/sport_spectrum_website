@@ -1,13 +1,13 @@
 - id: nav_platform
   translation: "Platforma"
 - id: nav_insights
-  translation: "Wgląd"
+  translation: "Zdolności analityczne"
 - id: nav_contact
   translation: "Kontakt"
 - id: hero_title
   translation: "Zdominuj dzięki danym"
 - id: hero_description
-  translation: "Sport Spectrum dostarcza nowoczesne analizy zespołów wysokiej wydajności. Precyzja. Moc. Wgląd."
+  translation: "Sport Spectrum dostarcza nowoczesne analizy zespołów wysokiej wydajności. Precyzja. Inteligencja. Rozpoznanie sytuacji. Taktyka."
 - id: hero_cta
   translation: "Poznaj platformę"
 - id: cta_title
@@ -33,7 +33,7 @@
 - id: insights_cta
   translation: "Aktywuj Wgląd"
 - id: footer_description
-  translation: "Analityka dla siatkówki i zespołów wielodyscyplinarnych. Stworzona dla szybkości, precyzji i dominacji."
+  translation: "Analityka dla sportów zespołowych , indywidualnych i zespołów wielodyscyplinarnych. Stworzona dla szybkości, precyzji i dominacji."
 - id: footer_address
   translation: "ul. Arena 123, Warszawa, Polska"
 - id: footer_email
@@ -41,7 +41,7 @@
 - id: footer_phone
   translation: "+48 123 456 789"
 - id: footer_affiliation
-  translation: "Dumny członek"
+  translation: "Grupa"
 - id: quick_links
   translation: "Szybkie linki"
 - id: connect_title
