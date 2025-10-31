@@ -35,11 +35,11 @@
 - id: footer_description
   translation: "Analytics for volleyball and multi-sport teams..."
 - id: footer_address
-  translation: "123 Arena Avenue, Warsaw, Poland"
+  translation: "Warsaw, Poland"
 - id: footer_email
   translation: "technolog@spectrumai.pl"
 - id: footer_phone
-  translation: "+48 123 456 789"
+  translation: "+48 *** *** ***"
 - id: footer_affiliation
   translation: "A proud member of the"
 - id: quick_links
