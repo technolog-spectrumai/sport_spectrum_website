@@ -1,4 +1,4 @@
-- id: nav_platform
+ pp- id: nav_platform
   translation: "Platforma"
 - id: nav_insights
   translation: "Zdolności analityczne"
@@ -111,7 +111,7 @@
 - id: footer_email
   translation: "technolog@spectrumai.pl"
 - id: footer_phone
-  translation: "+48   *"
+  translation: "+48 *** *** ***"
 - id: footer_affiliation
   translation: "Grupa"
 
