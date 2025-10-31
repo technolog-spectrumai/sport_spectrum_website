@@ -5,7 +5,7 @@
 - id: nav_contact
   translation: "Kontakt"
 - id: hero_title
-  translation: "Zdominuj dzięki danym"
+  translation: "Dominuj na boisku dzięki danym"
 - id: hero_description
   translation: "Sport Spectrum dostarcza nowoczesne analizy zespołów wysokiej wydajności. Precyzja. Inteligencja. Rozpoznanie sytuacji. Taktyka."
 - id: hero_cta
@@ -25,21 +25,21 @@
 - id: insights_title
   translation: "Silnik Wglądu"
 - id: insights_description
-  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i bezlitosną."
+  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik analityczno-decyzyjny Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i skuteczą."
 - id: coming_soon_title
   translation: "Wkrótce dostępne..."
 - id: coming_soon_description
-  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie. Sport Spectrum to cicha broń za inteligentnymi zwycięstwami."
+  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie."
 - id: insights_cta
   translation: "Aktywuj Wgląd"
 - id: footer_description
-  translation: "Analityka dla sportów zespołowych , indywidualnych i zespołów wielodyscyplinarnych. Stworzona dla szybkości, precyzji i dominacji."
+  translation: "Analityka dla sportów zespołowych , indywidualnych i zespołów wielodyscyplinarnych."
 - id: footer_address
-  translation: "ul. Arena 123, Warszawa, Polska"
+  translation: "Warszawa, Polska"
 - id: footer_email
   translation: "technolog@spectrumai.pl"
 - id: footer_phone
-  translation: "+48 123 456 789"
+  translation: "+48 *** *** ***"
 - id: footer_affiliation
   translation: "Grupa"
 - id: quick_links
@@ -99,7 +99,7 @@
 - id: insights_title
   translation: "Silnik Wglądu"
 - id: insights_description
-  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i bezlitosną."
+  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia boisko w zadanie wizualnej sztucznej inteligencji."
 - id: insights_heatmaps_label
   translation: "Mapy cieplne:"
 - id: insights_heatmaps_text
@@ -123,7 +123,7 @@
 - id: coming_soon_title
   translation: "Wkrótce dostępne..."
 - id: coming_soon_description
-  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie. Sport Spectrum to cicha broń za inteligentnymi zwycięstwami."
+  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie."
 - id: coming_soon_volleyball
   translation: "🏐 Siatkówka: strefy serwisu, timing bloków, rotacje"
 - id: coming_soon_football
