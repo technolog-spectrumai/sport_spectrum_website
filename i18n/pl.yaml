@@ -4,48 +4,121 @@
   translation: "Zdolności analityczne"
 - id: nav_contact
   translation: "Kontakt"
+
 - id: hero_title
-  translation: "Dominuj na boisku dzięki danym"
+  translation: "Dominuj na boisku dzięki analizie danych"
 - id: hero_description
-  translation: "Sport Spectrum dostarcza nowoczesne analizy zespołów wysokiej wydajności. Precyzja. Inteligencja. Rozpoznanie sytuacji. Taktyka."
+  translation: "Sport Spectrum oferuje nowoczesną analitykę dla zespołów o wysokiej wydajności. Precyzja. Inteligencja. Ocena sytuacji. Taktyka."
 - id: hero_cta
   translation: "Poznaj platformę"
+
 - id: cta_title
-  translation: "Gotowy, by odblokować swój potencjał?"
+  translation: "Gotowy, by uwolnić swój potencjał?"
 - id: cta_description
-  translation: "Dołącz do trenerów, analityków i sportowców korzystających ze Sport Spectrum, aby myśleć szybciej, grać lepiej i wygrywać częściej."
+  translation: "Dołącz do trenerów, analityków i sportowców, którzy dzięki Sport Spectrum myślą szybciej, grają lepiej i wygrywają częściej."
 - id: cta_button
   translation: "Poproś o demo"
+
 - id: platform_title
   translation: "Platforma"
 - id: platform_description
-  translation: "Sport Spectrum to silnik analityczny wysokiej wydajności stworzony dla trenerów, sportowców i analityków. Nasza platforma przekształca surowe dane w taktyczną inteligencję — szybko, dokładnie i skutecznie."
-- id: tech_stack_title
+  translation: "Sport Spectrum to silnik analityczny stworzony z myślą o trenerach, zawodnikach i analitykach. Przekształcamy surowe dane w taktyczną wiedzę — szybko, precyzyjnie i skutecznie."
+- id: platformfeaturematch_tracking
+  translation: "⚡ Śledzenie meczu na żywo"
+- id: platformfeatureplayer_metrics
+  translation: "📊 Zaawansowane statystyki zawodników"
+- id: platformfeatureai_predictions
+  translation: "🧠 Prognozy wydajności wspierane przez AI"
+- id: platformfeatureheatmaps
+  translation: "📈 Mapy cieplne i analiza ruchu"
+- id: platformfeaturecloud_storage
+  translation: "🔐 Bezpieczne przechowywanie danych w chmurze"
+
+- id: techstacktitle
   translation: "Stos technologiczny"
+- id: techaineural
+  translation: "🧠 Sztuczna inteligencja i sieci neuronowe"
+- id: techcomputervision
+  translation: "🎥 Wizja komputerowa"
+- id: techmlpipelines
+  translation: "📊 Procesy uczenia maszynowego"
+- id: techcloudarchitecture
+  translation: "☁️ Architektura chmurowa"
+- id: techrealtime_engine
+  translation: "⚡ Silnik danych w czasie rzeczywistym"
+- id: techmoderinterface
+  translation: "🛠️ Interfejs Moder"
+
 - id: insights_title
-  translation: "Silnik Wglądu"
+  translation: "Silnik Analityczny"
 - id: insights_description
-  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik analityczno-decyzyjny Sport Spectrum zamienia wydajność w wizualną inteligencję — na żywo, przewidującą i skuteczą."
-- id: coming_soon_title
-  translation: "Wkrótce dostępne..."
-- id: coming_soon_description
-  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie."
+  translation: "To więcej niż dane. To taktyczna przewaga. Nasz silnik analityczny przekształca boisko w zadanie dla wizualnej sztucznej inteligencji."
+- id: insightsheatmapslabel
+  translation: "Mapy cieplne:"
+- id: insightsheatmapstext
+  translation: "Sprawdź, gdzie zawodnicy dominują — i gdzie ich brakuje."
+- id: insightstrendgraphs_label
+  translation: "Wykresy trendów:"
+- id: insightstrendgraphs_text
+  translation: "Wychwytuj zmiany dynamiki zanim zrobi to przeciwnik."
+- id: insightsaiforecasts_label
+  translation: "Prognozy AI:"
+- id: insightsaiforecasts_text
+  translation: "Przewiduj wyniki, zmęczenie zawodników i ryzyko taktyczne."
+- id: insightsvideolabel
+  translation: "Wideo powiązane z danymi:"
+- id: insightsvideotext
+  translation: "Synchronizuj statystyki z nagraniami. Każda akcja, każdy piksel — zinterpretowany."
+- id: insightsopponentprofiles_label
+  translation: "Profile przeciwników:"
+- id: insightsopponentprofiles_text
+  translation: "Zautomatyzowane raporty scoutingowe ujawniające słabe punkty rywali."
 - id: insights_cta
-  translation: "Aktywuj Wgląd"
+  translation: "Uruchom silnik analityczny"
+
+- id: featureathleteintelligence_title
+  translation: "Inteligencja Zawodnika"
+- id: featureathleteintelligence_description
+  translation: "Monitoruj prędkość, czas reakcji i efektywność biomechaniczną w różnych dyscyplinach. Zaprojektowane dla profesjonalistów."
+
+- id: featureteamdynamics_title
+  translation: "Dynamika Zespołu"
+- id: featureteamdynamics_description
+  translation: "Analizuj formacje, rotacje i synergię zespołu. Od siatkówki po piłkę nożną — odszyfrowujemy przepływ gry."
+
+- id: featurelivematchenginetitle
+  translation: "Silnik Meczu na Żywo"
+- id: featurelivematchenginedescription
+  translation: "Strumienie danych w czasie rzeczywistym wspierające decyzje taktyczne. Wgląd wspomagany przez AI podczas gry."
+
+- id: comingsoontitle
+  translation: "Już wkrótce..."
+- id: comingsoondescription
+  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni liderzy."
+- id: comingsoonvolleyball
+  translation: "🏐 Siatkówka: strefy serwisu, timing bloków, rotacje"
+- id: comingsoonfootball
+  translation: "⚽ Piłka nożna: mapy pressingu, zmiany formacji, kontrola tempa"
+- id: comingsoonbasketball
+  translation: "🏀 Koszykówka: pułapki defensywne, gęstość rzutów, analiza kluczowych momentów"
+- id: comingsoontennis
+  translation: "🎾 Tenis: głębokość wymian, krzywe zmęczenia, prognozy serwisu"
+
 - id: footer_description
-  translation: "Analityka dla sportów zespołowych , indywidualnych i zespołów wielodyscyplinarnych."
+  translation: "Analityka dla sportów zespołowych, indywidualnych i drużyn multidyscyplinarnych."
 - id: footer_address
   translation: "Warszawa, Polska"
 - id: footer_email
   translation: "technolog@spectrumai.pl"
 - id: footer_phone
-  translation: "+48 *** *** ***"
+  translation: "+48   *"
 - id: footer_affiliation
   translation: "Grupa"
+
 - id: quick_links
   translation: "Szybkie linki"
 - id: connect_title
-  translation: "Połącz się"
+  translation: "Połącz się z nami"
 - id: twitter
   translation: "Twitter"
 - id: facebook
@@ -54,87 +127,5 @@
   translation: "Instagram"
 - id: linkedin
   translation: "LinkedIn"
-- id: all_rights_reserved
+- id: allrightsreserved
   translation: "Wszelkie prawa zastrzeżone."
-- id: feature_athlete_intelligence_title
-  translation: "Inteligencja Zawodnika"
-- id: feature_athlete_intelligence_description
-  translation: "Śledź prędkość, czas reakcji i efektywność biomechaniczną w różnych dyscyplinach. Stworzone dla elity."
-- id: feature_team_dynamics_title
-  translation: "Dynamika Zespołu"
-- id: feature_team_dynamics_description
-  translation: "Analizuj formacje, rotacje i synergię. Od boisk siatkarskich po piłkarskie — odszyfrowujemy przepływ zespołu."
-- id: feature_live_match_engine_title
-  translation: "Silnik Meczu na Żywo"
-- id: feature_live_match_engine_description
-  translation: "Strumienie danych w czasie rzeczywistym dla decyzji taktycznych. Wgląd wspierany przez AI podczas gry."
-- id: platform_title
-  translation: "Platforma"
-- id: platform_description
-  translation: "Sport Spectrum to silnik analityczny wysokiej wydajności stworzony dla trenerów, sportowców i analityków. Nasza platforma przekształca surowe dane w taktyczną inteligencję — szybko, dokładnie i skutecznie."
-- id: platform_feature_match_tracking
-  translation: "⚡ Śledzenie meczu w czasie rzeczywistym"
-- id: platform_feature_player_metrics
-  translation: "📊 Zaawansowane metryki zawodników"
-- id: platform_feature_ai_predictions
-  translation: "🧠 Prognozy wydajności wspierane przez AI"
-- id: platform_feature_heatmaps
-  translation: "📈 Mapy cieplne i analiza ruchu"
-- id: platform_feature_cloud_storage
-  translation: "🔐 Bezpieczne przechowywanie danych w chmurze"
-- id: tech_stack_title
-  translation: "Stos technologiczny"
-- id: tech_ai_neural
-  translation: "🧠 Sztuczna inteligencja i sieci neuronowe"
-- id: tech_computer_vision
-  translation: "🎥 Wizja komputerowa"
-- id: tech_ml_pipelines
-  translation: "📊 Procesy uczenia maszynowego"
-- id: tech_cloud_architecture
-  translation: "☁️ Architektura natywna dla chmury"
-- id: tech_real_time_engine
-  translation: "⚡ Silnik danych w czasie rzeczywistym"
-- id: tech_moder_interface
-  translation: "🛠️ Interfejs Moder"
-- id: insights_title
-  translation: "Silnik Wglądu"
-- id: insights_description
-  translation: "To nie tylko dane. To taktyczna siła ognia. Silnik Wglądu Sport Spectrum zamienia boisko w zadanie wizualnej sztucznej inteligencji."
-- id: insights_heatmaps_label
-  translation: "Mapy cieplne:"
-- id: insights_heatmaps_text
-  translation: "Dowiedz się, gdzie twoi zawodnicy dominują — i gdzie znikają."
-- id: insights_trend_graphs_label
-  translation: "Wykresy trendów:"
-- id: insights_trend_graphs_text
-  translation: "Zauważ zmiany dynamiki zanim zrobi to przeciwnik."
-- id: insights_ai_forecasts_label
-  translation: "Prognozy AI:"
-- id: insights_ai_forecasts_text
-  translation: "Przewiduj wyniki meczów, zmęczenie zawodników i ryzyko taktyczne."
-- id: insights_video_label
-  translation: "Wideo powiązane z danymi:"
-- id: insights_video_text
-  translation: "Synchronizuj statystyki z nagraniami. Każda akcja, każdy piksel — rozszyfrowany."
-- id: insights_opponent_profiles_label
-  translation: "Profile przeciwników:"
-- id: insights_opponent_profiles_text
-  translation: "Zautomatyzowane raporty scoutingowe ujawniające słabości."
-- id: coming_soon_title
-  translation: "Wkrótce dostępne..."
-- id: coming_soon_description
-  translation: "Reprezentacje narodowe. Kluby zawodowe. Taktyczni mistrzowie."
-- id: coming_soon_volleyball
-  translation: "🏐 Siatkówka: strefy serwisu, timing bloków, rotacje"
-- id: coming_soon_football
-  translation: "⚽ Piłka nożna: mapy pressingu, zmiany formacji, kontrola tempa"
-- id: coming_soon_basketball
-  translation: "🏀 Koszykówka: pułapki defensywne, gęstość rzutów, analiza kluczowych momentów"
-- id: coming_soon_tennis
-  translation: "🎾 Tenis: głębokość wymian, krzywe zmęczenia, prognozy serwisu"
-
-
-- id: insights_cta
-  translation: "Aktywuj Wgląd"
-
-
