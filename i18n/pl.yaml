@@ -87,9 +87,9 @@
   translation: "Analizuj formacje, rotacje i synergię zespołu. Od siatkówki po piłkę nożną — odszyfrowujemy przepływ gry."
 
 - id: featurelivematchenginetitle
-  translation: "Silnik Meczu na Żywo"
+  translation: "Analiza Meczu na Żywo"
 - id: featurelivematchenginedescription
-  translation: "Strumienie danych w czasie rzeczywistym wspierające decyzje taktyczne. Wgląd wspomagany przez AI podczas gry."
+  translation: "Strumienie danych w czasie rzeczywistym wspierające decyzje taktyczne. Silnik decyzji AI w czasie rzeczywistym."
 
 - id: comingsoontitle
   translation: "Już wkrótce..."
