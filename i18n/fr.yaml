@@ -35,11 +35,11 @@
 - id: footer_description
   translation: "Analytique pour le volleyball et les équipes multisports. Conçu pour la vitesse, la précision et la domination."
 - id: footer_address
-  translation: "123 Avenue de l’Arène, Varsovie, Pologne"
+  translation: "Varsovie, Pologne"
 - id: footer_email
   translation: "technolog@spectrumai.pl"
 - id: footer_phone
-  translation: "+48 123 456 789"
+  translation: "+48 *** *** ***"
 - id: footer_affiliation
   translation: "Membre fier du"
 - id: quick_links
