@@ -1,4 +1,4 @@
-/* Sport Spectrum — design tokens (light is the default; dark follows the OS
+/* Kroton AI — design tokens (light is the default; dark follows the OS
    unless the visitor picks a theme with the toggle). */
 :root {
   color-scheme: light;

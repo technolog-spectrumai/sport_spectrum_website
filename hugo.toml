@@ -1,5 +1,5 @@
 baseURL = "https://sport-spectrum.pages.dev/"
-title = "Sport Spectrum"
+title = "Kroton AI"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 disableKinds = ["taxonomy", "term", "RSS"]

@@ -1,18 +1,18 @@
 ---
-title: Sport Spectrum
+title: Kroton AI
 meta_title: Analityka sportowa AI, wizja komputerowa i predykcje
-meta_description: 'Sport Spectrum to silnik AI dla sportów zespołowych, zaczynając od piłki nożnej i siatkówki. Zamienia nagrania meczów i treningów w jasne decyzje dla klubów, trenerów i federacji: wizja komputerowa oznacza każdą akcję, analityka pokazuje, co wygrywa mecze, a predykcje – co wydarzy się dalej.'
+meta_description: 'Kroton AI to silnik AI dla sportów zespołowych, zaczynając od piłki nożnej i siatkówki. Zamienia nagrania meczów i treningów w jasne decyzje dla klubów, trenerów i federacji: wizja komputerowa oznacza każdą akcję, analityka pokazuje, co wygrywa mecze, a predykcje – co wydarzy się dalej.'
 labels:
   skip: Przejdź do treści
   nav: Nawigacja główna
   language: Język
   theme: Przełącz jasny lub ciemny motyw
   menu: Otwórz menu
-  stats: Sport Spectrum w skrócie
+  stats: Kroton AI w skrócie
 brand:
-  name: Sport Spectrum
+  name: Kroton AI
   subtitle: AI dla sportu
-  home_label: Strona główna Sport Spectrum
+  home_label: Strona główna Kroton AI
 nav_cta: Umów demo
 nav:
 - label: Korzyści
@@ -31,14 +31,14 @@ hero:
   eyebrow: AI dla sportów zespołowych · wizja komputerowa · analityka · predykcje
   title_before: Zamieńcie nagrania meczów
   title_span: w zwycięskie decyzje.
-  lead: Sport Spectrum to silnik AI dla sportów zespołowych – zaczynamy od piłki nożnej i siatkówki. Ogląda za was każdą akcję, sprint i stały fragment gry, a nagrania, które już macie, zamienia w jasne odpowiedzi dla trenerów, zawodników i zarządu. Widzicie, co działa, co was kosztuje i co najpewniej wydarzy się dalej.
+  lead: Kroton AI to silnik AI dla sportów zespołowych – zaczynamy od piłki nożnej i siatkówki. Ogląda za was każdą akcję, sprint i stały fragment gry, a nagrania, które już macie, zamienia w jasne odpowiedzi dla trenerów, zawodników i zarządu. Widzicie, co działa, co was kosztuje i co najpewniej wydarzy się dalej.
   primary:
     label: Umów demo
     href: '#contact'
   secondary:
     label: Zobaczcie, co zyskujecie
     href: '#value'
-  visual_label: 'Przykładowy widok meczu w Sport Spectrum: śledzenie zawodników na boisku do siatkówki i podpowiedź AI dla trenera'
+  visual_label: 'Przykładowy widok meczu w Kroton AI: śledzenie zawodników na boisku do siatkówki i podpowiedź AI dla trenera'
   telemetry:
   - Akcja 47 · oznaczona automatycznie
   - 12 śledzonych zawodników
@@ -72,7 +72,7 @@ ticker:
 value:
   kicker: Korzyści
   title: Wasz sztab ma trenować, a nie tagować wideo.
-  text: Każdy klub nagrywa swoje mecze. Niewielu ma czas, by naprawdę je obejrzeć. Analitycy spędzają noce na wycinaniu klipów, wnioski przychodzą, gdy kolejny rywal jest już w drodze, a dane leżą w arkuszach, których nikt nie otwiera. Sport Spectrum oddaje wam ten czas i zamienia go w przewagę.
+  text: Każdy klub nagrywa swoje mecze. Niewielu ma czas, by naprawdę je obejrzeć. Analitycy spędzają noce na wycinaniu klipów, wnioski przychodzą, gdy kolejny rywal jest już w drodze, a dane leżą w arkuszach, których nikt nie otwiera. Kroton AI oddaje wam ten czas i zamienia go w przewagę.
   items:
   - title: Szybsze przygotowanie
     text: Raporty o rywalach, playlisty klipów i podsumowania meczów są gotowe na początku tygodnia, więc jest czas, by przetrenować to, co odkryliście.
@@ -85,7 +85,7 @@ value:
 platform:
   kicker: Platforma
   title: 'Trzy możliwości. Jedno pytanie: jak wygrać?'
-  text: Sport Spectrum widzi grę, wyjaśnia ją i patrzy w przyszłość. Zacznijcie od tego, czego wasz zespół potrzebuje najbardziej. Wszystkie trzy elementy są zaprojektowane, by rosnąć razem.
+  text: Kroton AI widzi grę, wyjaśnia ją i patrzy w przyszłość. Zacznijcie od tego, czego wasz zespół potrzebuje najbardziej. Wszystkie trzy elementy są zaprojektowane, by rosnąć razem.
   items:
   - icon: vision
     tag: Wizja komputerowa
@@ -122,8 +122,8 @@ platform:
 gallery:
   kicker: 'W akcji'
   title: 'Zobaczcie to na prawdziwym nagraniu.'
-  text: 'Kadry z Sport Spectrum działającego na nagraniach meczów piłkarskich. Każdy zawodnik jest wykrywany, śledzony, przypisywany do drużyny i nanoszony na widok boiska z góry. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
-  note: 'Kadry z transmisji meczów przetworzone przez Sport Spectrum. Oznaczenia sponsorów zostały usunięte.'
+  text: 'Kadry z Kroton AI działającego na nagraniach meczów piłkarskich. Każdy zawodnik jest wykrywany, śledzony, przypisywany do drużyny i nanoszony na widok boiska z góry. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
+  note: 'Kadry z transmisji meczów przetworzone przez Kroton AI. Oznaczenia sponsorów zostały usunięte.'
   items:
   - image: img/screens/top-down-map.jpg
     wide: true
@@ -165,7 +165,7 @@ gallery:
 how:
   kicker: Jak to działa
   title: Od nagrania do poniedziałkowej decyzji.
-  text: Nie musicie uczyć się nowego sposobu pracy. Sport Spectrum dopasowuje się do tego, jak wasz sztab już przygotowuje się do meczów, gra i je analizuje.
+  text: Nie musicie uczyć się nowego sposobu pracy. Kroton AI dopasowuje się do tego, jak wasz sztab już przygotowuje się do meczów, gra i je analizuje.
   bullets:
   - Działa na nagraniach meczów i treningów, które już macie.
   - Każda liczba prowadzi do klipu, z którego pochodzi, więc zawodnicy ją widzą, a nie tylko o niej słyszą.
@@ -185,7 +185,7 @@ how:
 predictions:
   kicker: Predykcje
   title: Wiedzcie, kiedy działać, a nie tylko co się wydarzyło.
-  text: Analiza po fakcie jest przydatna. Przewidywanie wygrywa mecze. Sport Spectrum zamienia wzorce z rozegranych spotkań we wczesne sygnały, na które sztab może zareagować, póki to jeszcze ma znaczenie.
+  text: Analiza po fakcie jest przydatna. Przewidywanie wygrywa mecze. Kroton AI zamienia wzorce z rozegranych spotkań we wczesne sygnały, na które sztab może zareagować, póki to jeszcze ma znaczenie.
   chart:
     title: Szansa na wygranie seta, akcja po akcji
     subtitle: Przykład poglądowy · siatkówka, trzeci set
@@ -231,7 +231,7 @@ teams:
 sports:
   kicker: Dyscypliny
   title: Piłka nożna i siatkówka dziś. Kolejne dyscypliny w planach.
-  text: Rozwijamy silnik Sport Spectrum dla sportów zespołowych, zaczynając od piłki nożnej i siatkówki – szybkich, uporządkowanych gier, w których każde posiadanie piłki i każda akcja opowiadają historię. W planach mamy rozszerzenie na kolejne dyscypliny.
+  text: Rozwijamy silnik Kroton AI dla sportów zespołowych, zaczynając od piłki nożnej i siatkówki – szybkich, uporządkowanych gier, w których każde posiadanie piłki i każda akcja opowiadają historię. W planach mamy rozszerzenie na kolejne dyscypliny.
   questions_label: Pytania, na które pomagamy odpowiedzieć
   items:
   - icon: football
@@ -293,14 +293,14 @@ faq:
 contact:
   kicker: Kontakt
   title: Dajcie nam jeden mecz. Pokażemy, co w nim jest.
-  text: Opowiedzcie nam o ostatnim meczu i pytaniu, które nie daje spać waszemu sztabowi. Pokażemy, co widzi Sport Spectrum – na waszym własnym nagraniu.
+  text: Opowiedzcie nam o ostatnim meczu i pytaniu, które nie daje spać waszemu sztabowi. Pokażemy, co widzi Kroton AI – na waszym własnym nagraniu.
   email: technolog@spectrumai.pl
   location: Warszawa, Polska
   affiliation: Część
   group_name: Spectrum Group
   group_url: https://spectrumai-website.pages.dev/
 signature:
-  label: Sygnet marki Sport Spectrum
+  label: Sygnet marki Kroton AI
   text: AI dla sportów zespołowych · wizja komputerowa · analityka · predykcje
 footer:
   tagline: Zamieniamy nagrania meczów w zwycięskie decyzje.

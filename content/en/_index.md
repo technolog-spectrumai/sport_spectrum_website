@@ -1,18 +1,18 @@
 ---
-title: Sport Spectrum
-meta_title: AI sports analytics, computer vision and predictions
-meta_description: 'Sport Spectrum is an AI engine for team sports, starting with football and volleyball. It turns match and training video into clear decisions for clubs, coaches and federations: computer vision tags every action, analytics explain what wins, and predictions show what comes next.'
+title: Kroton AI
+meta_title: Sports analytics, computer vision and predictions
+meta_description: 'Kroton AI is an AI engine for team sports, starting with football and volleyball. It turns match and training video into clear decisions for clubs, coaches and federations: computer vision tags every action, analytics explain what wins, and predictions show what comes next.'
 labels:
   skip: Skip to content
   nav: Primary navigation
   language: Language
   theme: Toggle light or dark theme
   menu: Open menu
-  stats: Sport Spectrum at a glance
+  stats: Kroton AI at a glance
 brand:
-  name: Sport Spectrum
+  name: Kroton AI
   subtitle: AI for sport
-  home_label: Sport Spectrum home
+  home_label: Kroton AI home
 nav_cta: Book a demo
 nav:
 - label: Value
@@ -31,14 +31,14 @@ hero:
   eyebrow: AI for team sports · computer vision · analytics · predictions
   title_before: Turn match video into
   title_span: winning decisions.
-  lead: Sport Spectrum is an AI engine for team sports, starting with football and volleyball. It watches every rally, sprint and set piece for you and turns the footage you already record into clear answers for coaches, players and management. You see what is working, what is costing you and what is likely to happen next.
+  lead: Kroton AI is an AI engine for team sports, starting with football and volleyball. It watches every rally, sprint and set piece for you and turns the footage you already record into clear answers for coaches, players and management. You see what is working, what is costing you and what is likely to happen next.
   primary:
     label: Book a demo
     href: '#contact'
   secondary:
     label: See what you get
     href: '#value'
-  visual_label: 'Illustrative Sport Spectrum match view: player tracking on a volleyball court, with an AI coaching insight'
+  visual_label: 'Illustrative Kroton AI match view: player tracking on a volleyball court, with an AI coaching insight'
   telemetry:
   - Rally 47 · auto-tagged
   - 12 players tracked
@@ -72,7 +72,7 @@ ticker:
 value:
   kicker: The value
   title: Your staff should be coaching, not tagging video.
-  text: Every club records its matches. Few have the hours to watch them properly. Analysts spend nights clipping footage, insight arrives when the next opponent is already on the bus, and data sits in spreadsheets nobody opens. Sport Spectrum gives that time back and turns it into an edge.
+  text: Every club records its matches. Few have the hours to watch them properly. Analysts spend nights clipping footage, insight arrives when the next opponent is already on the bus, and data sits in spreadsheets nobody opens. Kroton AI gives that time back and turns it into an edge.
   items:
   - title: Prepare faster
     text: Opponent reports, clip playlists and match summaries arrive early in the week, so there is time to train for what you found.
@@ -85,7 +85,7 @@ value:
 platform:
   kicker: Platform
   title: 'Three capabilities. One question: how do we win?'
-  text: Sport Spectrum sees the game, explains it and looks ahead. Start with the capability your team needs most. The three are designed to grow together.
+  text: Kroton AI sees the game, explains it and looks ahead. Start with the capability your team needs most. The three are designed to grow together.
   items:
   - icon: vision
     tag: Computer vision
@@ -122,8 +122,8 @@ platform:
 gallery:
   kicker: 'In action'
   title: 'See it on real footage.'
-  text: 'Stills from Sport Spectrum running on football match video. Every player is detected, followed, assigned to a team and placed on a top-down map of the pitch. That is the raw material behind every report, clip and prediction.'
-  note: 'Frames from match broadcasts processed by Sport Spectrum. Sponsor branding has been removed.'
+  text: 'Stills from Kroton AI running on football match video. Every player is detected, followed, assigned to a team and placed on a top-down map of the pitch. That is the raw material behind every report, clip and prediction.'
+  note: 'Frames from match broadcasts processed by Kroton AI. Sponsor branding has been removed.'
   items:
   - image: img/screens/top-down-map.jpg
     wide: true
@@ -165,7 +165,7 @@ gallery:
 how:
   kicker: How it works
   title: From footage to a Monday-morning decision.
-  text: There is no new workflow to learn. Sport Spectrum fits around the way your staff already prepares, plays and reviews.
+  text: There is no new workflow to learn. Kroton AI fits around the way your staff already prepares, plays and reviews.
   bullets:
   - It works from the match and training video you already record.
   - Every number links back to the clip it came from, so players see it, not just hear it.
@@ -185,7 +185,7 @@ how:
 predictions:
   kicker: Predictions
   title: Know when to act, not just what happened.
-  text: Hindsight is useful. Foresight wins matches. Sport Spectrum turns patterns from past games into early signals your staff can act on while it still matters.
+  text: Hindsight is useful. Foresight wins matches. Kroton AI turns patterns from past games into early signals your staff can act on while it still matters.
   chart:
     title: Set win probability, rally by rally
     subtitle: Illustrative example · volleyball, third set
@@ -231,7 +231,7 @@ teams:
 sports:
   kicker: Sports
   title: Football and volleyball today. More sports next.
-  text: 'We are developing the Sport Spectrum engine for team sports, starting with football (soccer) and volleyball: fast, structured games where every possession and every rally tells a story. We plan to expand to other sports next.'
+  text: 'We are developing the Kroton AI engine for team sports, starting with football (soccer) and volleyball: fast, structured games where every possession and every rally tells a story. We plan to expand to other sports next.'
   questions_label: Questions we help answer
   items:
   - icon: football
@@ -293,14 +293,14 @@ faq:
 contact:
   kicker: Contact
   title: Bring us one match. We’ll show you what’s inside.
-  text: Tell us about a recent game and the question that keeps your staff up at night. We will show you what Sport Spectrum sees, on your own footage.
+  text: Tell us about a recent game and the question that keeps your staff up at night. We will show you what Kroton AI sees, on your own footage.
   email: technolog@spectrumai.pl
   location: Warsaw, Poland
   affiliation: A member of
   group_name: Spectrum Group
   group_url: https://spectrumai-website.pages.dev/
 signature:
-  label: Sport Spectrum brand signature
+  label: Kroton AI brand signature
   text: AI for team sports · computer vision · analytics · predictions
 footer:
   tagline: Turning match video into winning decisions.

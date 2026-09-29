@@ -12,7 +12,7 @@
   themeToggle && themeToggle.addEventListener('click', function () {
     var next = currentTheme() === 'dark' ? 'light' : 'dark';
     root.setAttribute('data-theme', next);
-    try { localStorage.setItem('sport-spectrum-theme', next); } catch (e) {}
+    try { localStorage.setItem('kroton-ai-theme', next); } catch (e) {}
   });
 
   /* Mobile navigation */

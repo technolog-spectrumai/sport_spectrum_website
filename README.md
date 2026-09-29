@@ -1,6 +1,6 @@
-# Sport Spectrum — Hugo multilingual website
+# Kroton AI — Hugo multilingual website
 
-Marketing site for **Sport Spectrum**, an AI engine for team sports (football
+Marketing site for **Kroton AI** (formerly Sport Spectrum), an AI engine for team sports (football
 and volleyball today, more sports planned): computer vision, match analytics
 and predictions, presented from the client's point of view.
 
@@ -70,7 +70,7 @@ set `command = "echo 'Publishing prebuilt public/'"` in `netlify.toml`.
 
 ## Screenshots ("In action" section)
 
-The "In action" section shows stills from Sport Spectrum's annotated match
+The "In action" section shows stills from Kroton AI's annotated match
 videos. It stays hidden until at least one listed image exists, so the page
 never shows an empty gallery.
 
