@@ -182,8 +182,15 @@ section { padding: 96px 0; position: relative; z-index: 1; scroll-margin-top: 70
 .stat span { display: block; color: var(--muted); font-size: .9rem; line-height: 1.5; }
 
 /* Hero stage — an illustrative "match read" */
-.stage { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr auto; gap: 14px; padding: 22px; min-height: 540px; border-radius: 40px; overflow: hidden; isolation: isolate; border: 1px solid var(--line-strong); box-shadow: var(--shadow); background: radial-gradient(circle at 70% 30%, color-mix(in srgb, var(--teal) 16%, transparent), transparent 20rem), linear-gradient(150deg, var(--surface-strong), var(--bg-2)); }
+.stage { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr; gap: 14px; padding: 22px; min-height: 540px; border-radius: 40px; overflow: hidden; isolation: isolate; border: 1px solid var(--line-strong); box-shadow: var(--shadow); background: radial-gradient(circle at 70% 30%, color-mix(in srgb, var(--teal) 16%, transparent), transparent 20rem), linear-gradient(150deg, var(--surface-strong), var(--bg-2)); }
 .stage::before { content: ""; position: absolute; inset: 0; z-index: -1; background-image: linear-gradient(color-mix(in srgb, var(--ink) 8%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--ink) 8%, transparent) 1px, transparent 1px); background-size: 40px 40px; mask-image: radial-gradient(circle at 50% 45%, black, transparent 75%); -webkit-mask-image: radial-gradient(circle at 50% 45%, black, transparent 75%); }
+.stage-tabs { display: flex; gap: 6px; padding: 4px; border-radius: 999px; background: color-mix(in srgb, var(--surface-strong) 80%, transparent); border: 1px solid var(--line); width: max-content; max-width: 100%; }
+.stage-tab { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 14px; border: 0; border-radius: 999px; background: transparent; color: var(--muted); font: inherit; font-size: .8rem; font-weight: 800; letter-spacing: .04em; cursor: pointer; }
+.stage-tab .ico { width: 18px; height: 18px; }
+.stage-tab:hover { color: var(--ink); }
+.stage-tab[aria-selected="true"] { background: linear-gradient(135deg, var(--grad-a), var(--grad-b)); color: var(--btn-ink); }
+.stage-panel { display: grid; grid-template-rows: auto 1fr auto; gap: 14px; min-height: 0; }
+.stage-panel[hidden] { display: none; }
 .stage-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .stage-top > * { max-width: 100%; }
 .telemetry { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: start; gap: 8px; min-width: 0; }
