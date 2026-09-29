@@ -46,11 +46,12 @@ a known version.
 
 ## Screenshots ("In action" section)
 
-The "In action" section shows stills taken from product videos. It stays
-hidden until at least one listed image exists, so the page never shows an
-empty gallery.
+The "In action" section shows stills from Sport Spectrum's annotated match
+videos. It stays hidden until at least one listed image exists, so the page
+never shows an empty gallery.
 
-1. Put the images in `static/img/screens/` (16:9 JPG, about 1600 px wide).
+1. Put the images in `static/img/screens/` (2:1 JPG, 1400–1600 px wide, with any
+   player UI such as Vimeo controls cropped out).
 2. List them under `gallery.items` in each language file:
 
 ```yaml
@@ -58,13 +59,14 @@ gallery:
   items:
   - image: img/screens/tracking.jpg
     width: 1600
-    height: 900
+    height: 800
     alt: Players tracked on a football pitch
     title: Every player, tracked
     text: One short line on what the club gets from this view.
 ```
 
-The first image is shown full width; the rest sit two per row.
+The first image is shown full width; the rest sit three per row on desktop
+and two per row on tablets.
 
 ## Notes
 

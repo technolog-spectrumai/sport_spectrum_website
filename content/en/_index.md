@@ -122,8 +122,32 @@ platform:
 gallery:
   kicker: In action
   title: See it on real footage.
-  text: Stills from Sport Spectrum at work on match video.
-  items: []
+  text: 'Stills from Sport Spectrum running on football match video. Players are detected and tracked, split into teams and placed on a tactical map. That is the raw material behind every report, clip and prediction.'
+  items:
+  - image: img/screens/tracking-attack.jpg
+    width: 1600
+    height: 800
+    alt: 'Football attack with every player circled in team colours and labelled with an ID and shirt number, the ball marked, and a tactical mini-map at the bottom'
+    title: 'Every player, every team, the ball'
+    text: 'Players are detected, split into teams and followed through the move. Shirt numbers are read automatically, the ball’s path is traced and a tactical map shows the shape from above.'
+  - image: img/screens/crowded-box.jpg
+    width: 1400
+    height: 700
+    alt: 'Players crowded in the penalty area during a set piece, each circled in team colours and labelled'
+    title: 'Crowded box, clear picture'
+    text: 'Even in a packed penalty area each player keeps an ID and a team: the raw material for set-piece and marking analysis.'
+  - image: img/screens/counter-attack.jpg
+    width: 1400
+    height: 700
+    alt: 'Counter-attack in a football match with the tracked players circled and labelled'
+    title: 'Transitions as they unfold'
+    text: 'Tracking follows players through fast breaks, so you can review how a counter-attack develops and who gets back.'
+  - image: img/screens/goalmouth.jpg
+    width: 1400
+    height: 700
+    alt: 'Players gathered near the goal during a free kick, each circled and labelled'
+    title: 'Every position around the goal'
+    text: 'Positions in and around the box are captured frame by frame, ready for breaking down dead-ball situations after the match.'
 how:
   kicker: How it works
   title: From footage to a Monday-morning decision.
