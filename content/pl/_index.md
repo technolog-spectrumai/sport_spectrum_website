@@ -123,31 +123,7 @@ gallery:
   kicker: W akcji
   title: Zobaczcie to na prawdziwym nagraniu.
   text: 'Kadry z Sport Spectrum działającego na nagraniach meczów piłkarskich. Zawodnicy są wykrywani i śledzeni, przypisywani do drużyn i nanoszeni na mapę taktyczną. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
-  items:
-  - image: img/screens/tracking-attack.jpg
-    width: 1600
-    height: 800
-    alt: 'Akcja ofensywna w meczu piłkarskim: każdy zawodnik zaznaczony kolorem drużyny, z identyfikatorem i numerem na koszulce, zaznaczona piłka i mini-mapa taktyczna u dołu'
-    title: 'Każdy zawodnik, każda drużyna, piłka'
-    text: 'Zawodnicy są wykrywani, przypisywani do drużyn i śledzeni przez całą akcję. Numery na koszulkach są odczytywane automatycznie, tor piłki jest rysowany, a mapa taktyczna pokazuje ustawienie z góry.'
-  - image: img/screens/crowded-box.jpg
-    width: 1400
-    height: 700
-    alt: 'Tłok w polu karnym podczas stałego fragmentu gry, każdy zawodnik zaznaczony kolorem drużyny i opisany'
-    title: 'Tłok w polu karnym, jasny obraz'
-    text: 'Nawet w zatłoczonym polu karnym każdy zawodnik zachowuje swój identyfikator i drużynę – to podstawa analizy stałych fragmentów gry i krycia.'
-  - image: img/screens/counter-attack.jpg
-    width: 1400
-    height: 700
-    alt: 'Kontratak w meczu piłkarskim ze śledzonymi, zaznaczonymi zawodnikami'
-    title: 'Przejścia krok po kroku'
-    text: 'Śledzenie obejmuje zawodników także w szybkich kontrach, więc możecie przeanalizować, jak rozwija się akcja i kto wraca do obrony.'
-  - image: img/screens/goalmouth.jpg
-    width: 1400
-    height: 700
-    alt: 'Zawodnicy zebrani pod bramką podczas rzutu wolnego, każdy zaznaczony i opisany'
-    title: 'Każda pozycja pod bramką'
-    text: 'Pozycje w polu karnym i wokół niego są zapisywane klatka po klatce, gotowe do rozbioru stałych fragmentów gry po meczu.'
+  items: []
 how:
   kicker: Jak to działa
   title: Od nagrania do poniedziałkowej decyzji.

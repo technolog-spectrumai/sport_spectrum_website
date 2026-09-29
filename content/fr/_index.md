@@ -123,31 +123,7 @@ gallery:
   kicker: En action
   title: Voyez-le sur de vraies images.
   text: 'Des captures de Sport Spectrum à l’œuvre sur des vidéos de matchs de football. Les joueurs sont détectés et suivis, répartis par équipe et placés sur une carte tactique. C’est la matière première de chaque rapport, clip et prédiction.'
-  items:
-  - image: img/screens/tracking-attack.jpg
-    width: 1600
-    height: 800
-    alt: 'Action offensive au football : chaque joueur entouré aux couleurs de son équipe avec un identifiant et son numéro de maillot, le ballon repéré et une mini-carte tactique en bas'
-    title: 'Chaque joueur, chaque équipe, le ballon'
-    text: 'Les joueurs sont détectés, répartis par équipe et suivis tout au long de l’action. Les numéros de maillot sont lus automatiquement, la trajectoire du ballon est tracée et une carte tactique montre le bloc vu d’en haut.'
-  - image: img/screens/crowded-box.jpg
-    width: 1400
-    height: 700
-    alt: 'Surface de réparation encombrée pendant un coup de pied arrêté, chaque joueur entouré aux couleurs de son équipe et étiqueté'
-    title: 'Surface encombrée, image claire'
-    text: 'Même dans une surface de réparation surchargée, chaque joueur garde un identifiant et une équipe : la base de l’analyse des coups de pied arrêtés et du marquage.'
-  - image: img/screens/counter-attack.jpg
-    width: 1400
-    height: 700
-    alt: 'Contre-attaque dans un match de football, joueurs suivis entourés et étiquetés'
-    title: 'Les transitions, pas à pas'
-    text: 'Le suivi accompagne les joueurs pendant les contre-attaques rapides, pour revoir comment l’action se développe et qui revient défendre.'
-  - image: img/screens/goalmouth.jpg
-    width: 1400
-    height: 700
-    alt: 'Joueurs regroupés devant le but pendant un coup franc, chacun entouré et étiqueté'
-    title: 'Chaque position devant le but'
-    text: 'Les positions dans et autour de la surface sont enregistrées image par image, prêtes pour décortiquer les coups de pied arrêtés après le match.'
+  items: []
 how:
   kicker: Comment ça marche
   title: De la vidéo à la décision du lundi matin.
