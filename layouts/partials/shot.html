@@ -1,5 +1,13 @@
 {{- /* One gallery still. Context: a gallery item from front matter. */ -}}
 <figure class="shot reveal{{ if .wide }} shot-wide{{ end }}">
   <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" draggable="false"{{ with .width }} width="{{ . }}"{{ end }}{{ with .height }} height="{{ . }}"{{ end }} />
-  <figcaption><strong>{{ .title }}</strong><span>{{ .text }}</span></figcaption>
+  <figcaption>
+    <strong>{{ .title }}</strong>
+    <span>{{ .text }}</span>
+    {{- with .points }}
+    <ul class="check-list">
+      {{- range . }}<li>{{ . }}</li>{{- end }}
+    </ul>
+    {{- end }}
+  </figcaption>
 </figure>
