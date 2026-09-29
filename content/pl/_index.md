@@ -122,9 +122,16 @@ platform:
 gallery:
   kicker: 'W akcji'
   title: 'Zobaczcie to na prawdziwym nagraniu.'
-  text: 'Kadry z Sport Spectrum działającego na nagraniach meczów piłkarskich. Każdy zawodnik jest wykrywany, śledzony i przypisywany do drużyny. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
+  text: 'Kadry z Sport Spectrum działającego na nagraniach meczów piłkarskich. Każdy zawodnik jest wykrywany, śledzony, przypisywany do drużyny i nanoszony na widok boiska z góry. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
   note: 'Kadry z transmisji meczów przetworzone przez Sport Spectrum. Oznaczenia sponsorów zostały usunięte.'
   items:
+  - image: img/screens/top-down-map.jpg
+    wide: true
+    width: 1148
+    height: 646
+    alt: 'Mecz piłkarski z kamery telewizyjnej: każdy zawodnik zaznaczony kolorem drużyny i opisany, a u dołu nałożony widok boiska z góry, na którym każdy zawodnik jest kropką'
+    title: 'Z obrazu telewizyjnego na widok z góry'
+    text: 'Każdy śledzony zawodnik jest nanoszony na widok boiska z góry – prosto ze zwykłego nagrania meczu. Ustawienie, odległości i odstępy między formacjami można zmierzyć, a nie tylko oglądać.'
   - image: img/screens/tracking-attack.jpg
     width: 980
     height: 490
@@ -143,6 +150,18 @@ gallery:
     alt: 'Zawodnicy zebrani pod bramką podczas rzutu wolnego, każdy zaznaczony i opisany'
     title: 'Każda pozycja pod bramką'
     text: 'Pozycje w polu karnym i wokół niego są zapisywane klatka po klatce, gotowe do rozbioru stałych fragmentów gry po meczu.'
+  - image: img/screens/ball-closeup.jpg
+    width: 600
+    height: 300
+    alt: 'Zbliżenie akcji pod polem karnym: zaznaczona piłka i jej tor, pobliscy zawodnicy zaznaczeni i opisani'
+    title: 'Dokąd leci piłka'
+    text: 'Tor piłki jest śledzony razem z zawodnikami wokół niej – to podstawa, by powiązać podania, strzały i pojedynki z konkretnymi zawodnikami.'
+  - image: img/screens/far-side.jpg
+    width: 700
+    height: 350
+    alt: 'Zawodnicy po drugiej stronie boiska, zaznaczeni kolorami drużyn, z odczytanymi numerami koszulek'
+    title: 'Także po drugiej stronie'
+    text: 'Zawodnicy z dala od piłki są śledzeni równie dokładnie, a numery na koszulkach odczytywane tam, gdzie są widoczne. Nikt nie wypada z analizy.'
 how:
   kicker: Jak to działa
   title: Od nagrania do poniedziałkowej decyzji.

@@ -66,8 +66,10 @@ gallery:
     text: One short line on what the club gets from this view.
 ```
 
-Images sit three per row on desktop, two per row on tablets (an odd last one
-spans the row) and one per row on phones. They are not linked to a full-size
+Add `wide: true` to an item to show it full width above the grid, at its
+own aspect ratio (used for the top-down map frame). The rest sit three per
+row on desktop (a last row of two shares the width), two per row on tablets
+(an odd last one is centred) and one per row on phones. They are not linked to a full-size
 view, so keep each file at the size it should be seen at — crop, don't upscale.
 
 ## Notes

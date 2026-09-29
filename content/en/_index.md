@@ -122,9 +122,16 @@ platform:
 gallery:
   kicker: 'In action'
   title: 'See it on real footage.'
-  text: 'Stills from Sport Spectrum running on football match video. Every player is detected, followed and assigned to a team. That is the raw material behind every report, clip and prediction.'
+  text: 'Stills from Sport Spectrum running on football match video. Every player is detected, followed, assigned to a team and placed on a top-down map of the pitch. That is the raw material behind every report, clip and prediction.'
   note: 'Frames from match broadcasts processed by Sport Spectrum. Sponsor branding has been removed.'
   items:
+  - image: img/screens/top-down-map.jpg
+    wide: true
+    width: 1148
+    height: 646
+    alt: 'Football match seen from the broadcast camera, each player circled in team colours and labelled, with a top-down map of the pitch overlaid at the bottom showing every player as a dot'
+    title: 'From broadcast view to top-down map'
+    text: 'Every tracked player is projected onto a top-down map of the pitch, straight from ordinary match video. Shape, spacing and distances between lines can be measured, not just watched.'
   - image: img/screens/tracking-attack.jpg
     width: 980
     height: 490
@@ -143,6 +150,18 @@ gallery:
     alt: 'Players gathered near the goal during a free kick, each circled and labelled'
     title: 'Every position around the goal'
     text: 'Positions in and around the box are captured frame by frame, ready for breaking down dead-ball situations after the match.'
+  - image: img/screens/ball-closeup.jpg
+    width: 600
+    height: 300
+    alt: 'Close-up of an attack near the box: the ball and its path marked, nearby players circled and labelled'
+    title: 'Where the ball goes'
+    text: 'The ball’s path is traced together with the players around it: the basis for linking passes, shots and duels to the people involved.'
+  - image: img/screens/far-side.jpg
+    width: 700
+    height: 350
+    alt: 'Players on the far side of the pitch, each circled in team colours, with shirt numbers read'
+    title: 'The far side too'
+    text: 'Players away from the ball are tracked just as closely, and shirt numbers are read where they are visible. Nobody drops out of the analysis.'
 how:
   kicker: How it works
   title: From footage to a Monday-morning decision.

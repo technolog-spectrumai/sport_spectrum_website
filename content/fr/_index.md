@@ -122,9 +122,16 @@ platform:
 gallery:
   kicker: 'En action'
   title: 'Voyez-le sur de vraies images.'
-  text: 'Des captures de Sport Spectrum à l’œuvre sur des vidéos de matchs de football. Chaque joueur est détecté, suivi et rattaché à son équipe. C’est la matière première de chaque rapport, clip et prédiction.'
+  text: 'Des captures de Sport Spectrum à l’œuvre sur des vidéos de matchs de football. Chaque joueur est détecté, suivi, rattaché à son équipe et placé sur une vue du terrain de dessus. C’est la matière première de chaque rapport, clip et prédiction.'
   note: 'Images de retransmissions de matchs traitées par Sport Spectrum. Les marques des sponsors ont été retirées.'
   items:
+  - image: img/screens/top-down-map.jpg
+    wide: true
+    width: 1148
+    height: 646
+    alt: 'Match de football vu depuis la caméra de retransmission, chaque joueur entouré aux couleurs de son équipe et étiqueté, avec en bas une vue du terrain de dessus où chaque joueur est un point'
+    title: 'De l’image télé à la vue de dessus'
+    text: 'Chaque joueur suivi est projeté sur une vue du terrain de dessus, directement à partir d’une vidéo de match ordinaire. Le bloc, les espacements et les distances entre les lignes se mesurent au lieu de simplement se regarder.'
   - image: img/screens/tracking-attack.jpg
     width: 980
     height: 490
@@ -143,6 +150,18 @@ gallery:
     alt: 'Joueurs regroupés devant le but pendant un coup franc, chacun entouré et étiqueté'
     title: 'Chaque position devant le but'
     text: 'Les positions dans et autour de la surface sont enregistrées image par image, prêtes pour décortiquer les coups de pied arrêtés après le match.'
+  - image: img/screens/ball-closeup.jpg
+    width: 600
+    height: 300
+    alt: 'Gros plan d’une action près de la surface : le ballon et sa trajectoire repérés, les joueurs proches entourés et étiquetés'
+    title: 'Où va le ballon'
+    text: 'La trajectoire du ballon est suivie avec les joueurs qui l’entourent : la base pour relier passes, tirs et duels aux joueurs concernés.'
+  - image: img/screens/far-side.jpg
+    width: 700
+    height: 350
+    alt: 'Joueurs de l’autre côté du terrain, entourés aux couleurs de leur équipe, numéros de maillot lus'
+    title: 'Loin du ballon aussi'
+    text: 'Les joueurs éloignés du ballon sont suivis avec la même précision, et les numéros de maillot sont lus lorsqu’ils sont visibles. Personne ne sort de l’analyse.'
 how:
   kicker: Comment ça marche
   title: De la vidéo à la décision du lundi matin.

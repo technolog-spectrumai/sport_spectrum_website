@@ -256,14 +256,19 @@
             <h2>{{ $p.gallery.title }}</h2>
             <p>{{ $p.gallery.text }}</p>
           </div>
+          {{- /* wide stills get a full-width row; the rest fill the grid */ -}}
+          {{- $wide := slice }}{{ $rest := slice }}
+          {{- range $shots }}{{ if .wide }}{{ $wide = $wide | append . }}{{ else }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
+          {{- range $wide }}
+          {{ partial "shot.html" . }}
+          {{- end }}
+          {{- with $rest }}
           <div class="shots">
-            {{- range $shots }}
-            <figure class="shot reveal">
-              <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" draggable="false"{{ with .width }} width="{{ . }}"{{ end }}{{ with .height }} height="{{ . }}"{{ end }} />
-              <figcaption><strong>{{ .title }}</strong><span>{{ .text }}</span></figcaption>
-            </figure>
+            {{- range . }}
+            {{ partial "shot.html" . }}
             {{- end }}
           </div>
+          {{- end }}
           {{- with $p.gallery.note }}
           <p class="shots-note">{{ . }}</p>
           {{- end }}

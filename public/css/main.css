@@ -251,13 +251,20 @@ section { padding: 96px 0; position: relative; z-index: 1; scroll-margin-top: 70
 .synergy-card .check-list { margin-top: 0; grid-template-columns: repeat(2, 1fr); }
 
 /* In action (stills from product videos) */
-.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.shot { margin: 0; border-radius: 28px; overflow: hidden; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-soft); }
+.shots { display: grid; grid-template-columns: repeat(6, 1fr); gap: 18px; }
+/* a last row of two shares the width instead of leaving a gap */
+.shot:nth-last-child(2):nth-child(3n+1), .shot:last-child:nth-child(3n+2) { grid-column: span 3; }
+.shot { grid-column: span 2; margin: 0; border-radius: 28px; overflow: hidden; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-soft); }
 .shot img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; object-fit: cover; background: #000; -webkit-user-drag: none; user-select: none; }
 .shot figcaption { display: grid; gap: 4px; padding: 18px 22px 20px; }
 .shot figcaption strong { font-size: 1.05rem; }
 .shot figcaption span { color: var(--muted); font-size: .94rem; line-height: 1.55; }
 .shots-note { margin-top: 16px; font-size: .82rem; color: var(--muted); }
+.shot-wide { margin-bottom: 18px; }
+.shot-wide img { aspect-ratio: auto; }
+.shot-wide figcaption { padding: 22px 28px 26px; }
+.shot-wide figcaption strong { font-size: 1.3rem; }
+.shot-wide figcaption span { font-size: 1.02rem; max-width: 820px; }
 
 /* How it works */
 .how-split { align-items: start; }
@@ -406,7 +413,8 @@ section { padding: 96px 0; position: relative; z-index: 1; scroll-margin-top: 70
   .sport-grid { grid-template-columns: repeat(2, 1fr); }
   .sport-card.is-next { grid-column: 1 / -1; }
   .shots { grid-template-columns: repeat(2, 1fr); }
-  .shot:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .shot, .shot:nth-last-child(2):nth-child(3n+1), .shot:last-child:nth-child(3n+2) { grid-column: auto; }
+  .shot:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - 9px); }
   .predict-items { grid-template-columns: repeat(2, 1fr); }
   .panel { position: relative; top: 0; }
   .faq-grid .section-head { margin-bottom: 0; }
@@ -423,6 +431,7 @@ section { padding: 96px 0; position: relative; z-index: 1; scroll-margin-top: 70
   section { padding: 68px 0; }
   .hero { padding-top: 44px; }
   .stats, .cards, .role-grid, .sport-grid, .value-grid, .predict-items, .synergy-card .check-list, .shots { grid-template-columns: 1fr; }
+  .shot:last-child:nth-child(odd) { width: auto; justify-self: stretch; }
   .stats { margin-top: 40px; }
   .stage { min-height: 0; padding: 16px; border-radius: 28px; }
   .prob-chip strong { font-size: 1.35rem; }
