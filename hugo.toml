@@ -2,21 +2,24 @@ baseURL = "https://sport-spectrum.pages.dev/"
 title = "Sport Spectrum"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+disableKinds = ["taxonomy", "term", "RSS"]
 
 [languages]
 
   [languages.en]
     languageName = "English"
+    languageCode = "en"
     weight = 1
     contentDir = "content/en"
 
   [languages.pl]
     languageName = "Polski"
+    languageCode = "pl-PL"
     weight = 2
     contentDir = "content/pl"
 
   [languages.fr]
     languageName = "Français"
+    languageCode = "fr-FR"
     weight = 3
     contentDir = "content/fr"
-

@@ -1,0 +1,6 @@
+# Illustrative series for the "Predictions" chart: set win probability (%)
+# after each rally of a volleyball set. Not real match data.
+# `event` is the rally where the timeout annotation is drawn.
+event: 23
+series: [52, 54, 51, 55, 57, 54, 50, 47, 49, 46, 44, 46, 42, 40, 43, 39, 37, 40, 36, 34, 37, 33,
+         38, 42, 45, 43, 48, 52, 55, 53, 58, 61, 59, 63, 66, 64, 69, 72, 70, 74, 77, 75, 79, 82]
