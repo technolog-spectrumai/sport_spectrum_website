@@ -38,19 +38,37 @@ hero:
   secondary:
     label: Voir ce que vous y gagnez
     href: '#value'
-  visual_label: 'Vue de match illustrative de Kroton AI : suivi des joueurs sur un terrain de volley et recommandation de l’IA pour l’entraîneur'
-  telemetry:
-  - Échange 47 · tagué auto
-  - 12 joueurs suivis
-  - Service → zone 1
-  zone: Zone 1
-  probability:
-    label: Probabilité de gagner le set
-    value: 64 %
-  insight:
-    kicker: Lecture du match · set 3
-    text: 'La rotation 3 est leur point faible : ils ne gagnent que 3 side-outs sur 9 quand vous servez en zone 1. Maintenez la pression.'
-    note: Exemple illustratif
+  visual_label: 'Vues de match illustratives de Kroton AI : suivi des joueurs sur un terrain de football et un terrain de volley, avec une recommandation de l’IA pour l’entraîneur'
+  tabs_label: 'Choisir un sport'
+  sports:
+  - key: football
+    name: 'Football'
+    telemetry:
+    - '63e minute · taguée auto'
+    - '22 joueurs suivis'
+    - 'Pressing → côté gauche'
+    zone: 'Espace'
+    probability:
+      label: 'Probabilité de victoire'
+      value: '58 %'
+    insight:
+      kicker: 'Lecture du match · 63e minute'
+      text: 'Leur latéral gauche monte à chaque pressing et laisse 18 m libres derrière lui. Renversez le jeu sur l’aile droite avant qu’il ne revienne.'
+      note: 'Exemple illustratif'
+  - key: volleyball
+    name: 'Volley-ball'
+    telemetry:
+    - 'Échange 47 · tagué auto'
+    - '12 joueurs suivis'
+    - 'Service → zone 1'
+    zone: 'Zone 1'
+    probability:
+      label: 'Probabilité de gagner le set'
+      value: '64 %'
+    insight:
+      kicker: 'Lecture du match · set 3'
+      text: 'La rotation 3 est leur point faible : ils ne gagnent que 3 side-outs sur 9 quand vous servez en zone 1. Maintenez la pression.'
+      note: 'Exemple illustratif'
 stats:
 - value: Des heures → des minutes
   label: Les images que vous tagguiez à la main arrivent taguées, consultables et prêtes à analyser.

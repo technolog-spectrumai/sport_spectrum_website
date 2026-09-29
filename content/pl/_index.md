@@ -38,19 +38,37 @@ hero:
   secondary:
     label: Zobaczcie, co zyskujecie
     href: '#value'
-  visual_label: 'Przykładowy widok meczu w Kroton AI: śledzenie zawodników na boisku do siatkówki i podpowiedź AI dla trenera'
-  telemetry:
-  - Akcja 47 · oznaczona automatycznie
-  - 12 śledzonych zawodników
-  - Zagrywka → strefa 1
-  zone: Strefa 1
-  probability:
-    label: Szansa na wygranie seta
-    value: 64%
-  insight:
-    kicker: Analiza meczu · set 3
-    text: 'Ustawienie 3 to ich słaby punkt: przy zagrywce w strefę 1 wygrywają tylko 3 z 9 akcji po przyjęciu. Utrzymajcie tam presję.'
-    note: Przykład poglądowy
+  visual_label: 'Przykładowe widoki meczu w Kroton AI: śledzenie zawodników na boisku piłkarskim i siatkarskim, z podpowiedzią AI dla trenera'
+  tabs_label: 'Wybierz dyscyplinę'
+  sports:
+  - key: football
+    name: 'Piłka nożna'
+    telemetry:
+    - 'Minuta 63 · oznaczona automatycznie'
+    - '22 śledzonych zawodników'
+    - 'Pressing → lewa strona'
+    zone: 'Przestrzeń'
+    probability:
+      label: 'Szansa na wygraną'
+      value: '58%'
+    insight:
+      kicker: 'Analiza meczu · minuta 63'
+      text: 'Ich lewy obrońca wychodzi wysoko przy każdym pressingu i zostawia za sobą 18 m wolnej przestrzeni. Przenieście grę na prawe skrzydło, zanim wróci.'
+      note: 'Przykład poglądowy'
+  - key: volleyball
+    name: 'Siatkówka'
+    telemetry:
+    - 'Akcja 47 · oznaczona automatycznie'
+    - '12 śledzonych zawodników'
+    - 'Zagrywka → strefa 1'
+    zone: 'Strefa 1'
+    probability:
+      label: 'Szansa na wygranie seta'
+      value: '64%'
+    insight:
+      kicker: 'Analiza meczu · set 3'
+      text: 'Ustawienie 3 to ich słaby punkt: przy zagrywce w strefę 1 wygrywają tylko 3 z 9 akcji po przyjęciu. Utrzymajcie tam presję.'
+      note: 'Przykład poglądowy'
 stats:
 - value: Godziny → minuty
   label: Nagrania, które dotąd tagowano ręcznie, trafiają do was oznaczone, przeszukiwalne i gotowe do analizy.

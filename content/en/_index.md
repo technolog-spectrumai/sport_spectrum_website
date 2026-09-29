@@ -38,19 +38,37 @@ hero:
   secondary:
     label: See what you get
     href: '#value'
-  visual_label: 'Illustrative Kroton AI match view: player tracking on a volleyball court, with an AI coaching insight'
-  telemetry:
-  - Rally 47 · auto-tagged
-  - 12 players tracked
-  - Serve → zone 1
-  zone: Zone 1
-  probability:
-    label: Set win probability
-    value: 64%
-  insight:
-    kicker: Match read · set 3
-    text: 'Rotation 3 is their weak spot: they win only 3 of 9 side-outs when you serve to zone 1. Keep the pressure there.'
-    note: Illustrative example
+  visual_label: 'Illustrative Kroton AI match views: player tracking on a football pitch and a volleyball court, each with an AI coaching insight'
+  tabs_label: 'Choose a sport'
+  sports:
+  - key: football
+    name: 'Football'
+    telemetry:
+    - 'Minute 63 · auto-tagged'
+    - '22 players tracked'
+    - 'Press → left side'
+    zone: 'Space'
+    probability:
+      label: 'Win probability'
+      value: '58%'
+    insight:
+      kicker: 'Match read · minute 63'
+      text: 'Their left-back steps up on every press and leaves 18 m open behind him. Switch play to the right wing before he recovers.'
+      note: 'Illustrative example'
+  - key: volleyball
+    name: 'Volleyball'
+    telemetry:
+    - 'Rally 47 · auto-tagged'
+    - '12 players tracked'
+    - 'Serve → zone 1'
+    zone: 'Zone 1'
+    probability:
+      label: 'Set win probability'
+      value: '64%'
+    insight:
+      kicker: 'Match read · set 3'
+      text: 'Rotation 3 is their weak spot: they win only 3 of 9 side-outs when you serve to zone 1. Keep the pressure there.'
+      note: 'Illustrative example'
 stats:
 - value: Hours → minutes
   label: Footage that used to be tagged by hand arrives tagged, searchable and ready to review.

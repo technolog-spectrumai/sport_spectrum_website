@@ -99,7 +99,10 @@ view, so keep each file at the size it should be seen at — crop, don't upscale
 
 ## Notes
 
-- The hero court view and the Predictions chart are labelled as illustrative
-  examples; the chart's numbers come from `data/win_probability.yaml`.
+- The hero has Football and Volleyball tabs (`hero.sports` in each language
+  file; drawings in `layouts/partials/stage-football.html` and
+  `stage-volleyball.html`). The first sport listed is shown by default. Both
+  views and the Predictions chart are labelled as illustrative examples; the
+  chart's numbers come from `data/win_probability.yaml`.
 - Contact address: `technolog@spectrumai.pl` (in each language file under
   `contact.email`).
