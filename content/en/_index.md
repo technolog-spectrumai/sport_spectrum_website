@@ -120,10 +120,29 @@ platform:
     - Decisions the whole staff can stand behind
     - An edge that grows with every match you record
 gallery:
-  kicker: In action
-  title: See it on real footage.
-  text: 'Stills from Sport Spectrum running on football match video. Players are detected and tracked, split into teams and placed on a tactical map. That is the raw material behind every report, clip and prediction.'
-  items: []
+  kicker: 'In action'
+  title: 'See it on real footage.'
+  text: 'Stills from Sport Spectrum running on football match video. Every player is detected, followed and assigned to a team. That is the raw material behind every report, clip and prediction.'
+  note: 'Frames from match broadcasts processed by Sport Spectrum. Sponsor branding has been removed.'
+  items:
+  - image: img/screens/tracking-attack.jpg
+    width: 980
+    height: 490
+    alt: 'Football attack with each player circled in team colours and labelled with an ID and shirt number, and the ball marked'
+    title: 'Every player, every team, the ball'
+    text: 'Players are detected, split into teams and followed through the move. Shirt numbers are read automatically and the ball’s path is traced.'
+  - image: img/screens/crowded-box.jpg
+    width: 960
+    height: 480
+    alt: 'Players crowded in the penalty area during a set piece, each circled in team colours and labelled'
+    title: 'Crowded box, clear picture'
+    text: 'Even in a packed penalty area each player keeps an ID and a team: the raw material for set-piece and marking analysis.'
+  - image: img/screens/goalmouth.jpg
+    width: 800
+    height: 400
+    alt: 'Players gathered near the goal during a free kick, each circled and labelled'
+    title: 'Every position around the goal'
+    text: 'Positions in and around the box are captured frame by frame, ready for breaking down dead-ball situations after the match.'
 how:
   kicker: How it works
   title: From footage to a Monday-morning decision.

@@ -120,10 +120,29 @@ platform:
     - Des décisions que tout le staff peut assumer
     - Un avantage qui grandit à chaque match enregistré
 gallery:
-  kicker: En action
-  title: Voyez-le sur de vraies images.
-  text: 'Des captures de Sport Spectrum à l’œuvre sur des vidéos de matchs de football. Les joueurs sont détectés et suivis, répartis par équipe et placés sur une carte tactique. C’est la matière première de chaque rapport, clip et prédiction.'
-  items: []
+  kicker: 'En action'
+  title: 'Voyez-le sur de vraies images.'
+  text: 'Des captures de Sport Spectrum à l’œuvre sur des vidéos de matchs de football. Chaque joueur est détecté, suivi et rattaché à son équipe. C’est la matière première de chaque rapport, clip et prédiction.'
+  note: 'Images de retransmissions de matchs traitées par Sport Spectrum. Les marques des sponsors ont été retirées.'
+  items:
+  - image: img/screens/tracking-attack.jpg
+    width: 980
+    height: 490
+    alt: 'Action offensive au football : chaque joueur entouré aux couleurs de son équipe avec un identifiant et son numéro de maillot, et le ballon repéré'
+    title: 'Chaque joueur, chaque équipe, le ballon'
+    text: 'Les joueurs sont détectés, répartis par équipe et suivis tout au long de l’action. Les numéros de maillot sont lus automatiquement et la trajectoire du ballon est tracée.'
+  - image: img/screens/crowded-box.jpg
+    width: 960
+    height: 480
+    alt: 'Surface de réparation encombrée pendant un coup de pied arrêté, chaque joueur entouré aux couleurs de son équipe et étiqueté'
+    title: 'Surface encombrée, image claire'
+    text: 'Même dans une surface de réparation surchargée, chaque joueur garde un identifiant et une équipe : la base de l’analyse des coups de pied arrêtés et du marquage.'
+  - image: img/screens/goalmouth.jpg
+    width: 800
+    height: 400
+    alt: 'Joueurs regroupés devant le but pendant un coup franc, chacun entouré et étiqueté'
+    title: 'Chaque position devant le but'
+    text: 'Les positions dans et autour de la surface sont enregistrées image par image, prêtes pour décortiquer les coups de pied arrêtés après le match.'
 how:
   kicker: Comment ça marche
   title: De la vidéo à la décision du lundi matin.

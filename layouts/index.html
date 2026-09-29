@@ -257,15 +257,16 @@
             <p>{{ $p.gallery.text }}</p>
           </div>
           <div class="shots">
-            {{- range $i, $s := $shots }}
-            <figure class="shot reveal{{ if eq $i 0 }} is-lead{{ end }}">
-              <a href="{{ $s.image | relURL }}" target="_blank" rel="noopener">
-                <img src="{{ $s.image | relURL }}" alt="{{ $s.alt }}" loading="lazy" decoding="async"{{ with $s.width }} width="{{ . }}"{{ end }}{{ with $s.height }} height="{{ . }}"{{ end }} />
-              </a>
-              <figcaption><strong>{{ $s.title }}</strong><span>{{ $s.text }}</span></figcaption>
+            {{- range $shots }}
+            <figure class="shot reveal">
+              <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" draggable="false"{{ with .width }} width="{{ . }}"{{ end }}{{ with .height }} height="{{ . }}"{{ end }} />
+              <figcaption><strong>{{ .title }}</strong><span>{{ .text }}</span></figcaption>
             </figure>
             {{- end }}
           </div>
+          {{- with $p.gallery.note }}
+          <p class="shots-note">{{ . }}</p>
+          {{- end }}
         </div>
       </section>
       {{- end }}

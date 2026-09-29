@@ -50,23 +50,25 @@ The "In action" section shows stills from Sport Spectrum's annotated match
 videos. It stays hidden until at least one listed image exists, so the page
 never shows an empty gallery.
 
-1. Put the images in `static/img/screens/` (2:1 JPG, 1400–1600 px wide, with any
-   player UI such as Vimeo controls cropped out).
+1. Put the images in `static/img/screens/` (2:1 JPG, at least ~800 px wide,
+   with any player UI such as Vimeo controls cropped out and sponsor logos
+   removed).
 2. List them under `gallery.items` in each language file:
 
 ```yaml
 gallery:
   items:
   - image: img/screens/tracking.jpg
-    width: 1600
-    height: 800
+    width: 960
+    height: 480
     alt: Players tracked on a football pitch
     title: Every player, tracked
     text: One short line on what the club gets from this view.
 ```
 
-The first image is shown full width; the rest sit three per row on desktop
-and two per row on tablets.
+Images sit three per row on desktop, two per row on tablets (an odd last one
+spans the row) and one per row on phones. They are not linked to a full-size
+view, so keep each file at the size it should be seen at — crop, don't upscale.
 
 ## Notes
 

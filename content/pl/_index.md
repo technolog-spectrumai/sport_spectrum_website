@@ -120,10 +120,29 @@ platform:
     - Decyzje, za którymi stoi cały sztab
     - Przewaga, która rośnie z każdym nagranym meczem
 gallery:
-  kicker: W akcji
-  title: Zobaczcie to na prawdziwym nagraniu.
-  text: 'Kadry z Sport Spectrum działającego na nagraniach meczów piłkarskich. Zawodnicy są wykrywani i śledzeni, przypisywani do drużyn i nanoszeni na mapę taktyczną. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
-  items: []
+  kicker: 'W akcji'
+  title: 'Zobaczcie to na prawdziwym nagraniu.'
+  text: 'Kadry z Sport Spectrum działającego na nagraniach meczów piłkarskich. Każdy zawodnik jest wykrywany, śledzony i przypisywany do drużyny. To surowiec, z którego powstaje każdy raport, klip i predykcja.'
+  note: 'Kadry z transmisji meczów przetworzone przez Sport Spectrum. Oznaczenia sponsorów zostały usunięte.'
+  items:
+  - image: img/screens/tracking-attack.jpg
+    width: 980
+    height: 490
+    alt: 'Akcja ofensywna w meczu piłkarskim: każdy zawodnik zaznaczony kolorem drużyny, z identyfikatorem i numerem na koszulce, oraz zaznaczona piłka'
+    title: 'Każdy zawodnik, każda drużyna, piłka'
+    text: 'Zawodnicy są wykrywani, przypisywani do drużyn i śledzeni przez całą akcję. Numery na koszulkach są odczytywane automatycznie, a tor piłki jest rysowany.'
+  - image: img/screens/crowded-box.jpg
+    width: 960
+    height: 480
+    alt: 'Tłok w polu karnym podczas stałego fragmentu gry, każdy zawodnik zaznaczony kolorem drużyny i opisany'
+    title: 'Tłok w polu karnym, jasny obraz'
+    text: 'Nawet w zatłoczonym polu karnym każdy zawodnik zachowuje swój identyfikator i drużynę – to podstawa analizy stałych fragmentów gry i krycia.'
+  - image: img/screens/goalmouth.jpg
+    width: 800
+    height: 400
+    alt: 'Zawodnicy zebrani pod bramką podczas rzutu wolnego, każdy zaznaczony i opisany'
+    title: 'Każda pozycja pod bramką'
+    text: 'Pozycje w polu karnym i wokół niego są zapisywane klatka po klatce, gotowe do rozbioru stałych fragmentów gry po meczu.'
 how:
   kicker: Jak to działa
   title: Od nagrania do poniedziałkowej decyzji.
