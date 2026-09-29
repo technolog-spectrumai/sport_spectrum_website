@@ -127,11 +127,15 @@ gallery:
   items:
   - image: img/screens/top-down-map.jpg
     wide: true
-    width: 1148
+    width: 768
     height: 646
     alt: 'Match de football vu depuis la caméra de retransmission, chaque joueur entouré aux couleurs de son équipe et étiqueté, avec en bas une vue du terrain de dessus où chaque joueur est un point'
     title: 'De l’image télé à la vue de dessus'
     text: 'Chaque joueur suivi est projeté sur une vue du terrain de dessus, directement à partir d’une vidéo de match ordinaire. Le bloc, les espacements et les distances entre les lignes se mesurent au lieu de simplement se regarder.'
+    points:
+    - 'Forme et compacité de l’équipe, phase par phase'
+    - 'Distances entre les lignes de défense, de milieu et d’attaque'
+    - 'Qui contrôle quel espace, et quand il s’ouvre'
   - image: img/screens/tracking-attack.jpg
     width: 980
     height: 490

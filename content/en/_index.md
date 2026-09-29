@@ -127,11 +127,15 @@ gallery:
   items:
   - image: img/screens/top-down-map.jpg
     wide: true
-    width: 1148
+    width: 768
     height: 646
     alt: 'Football match seen from the broadcast camera, each player circled in team colours and labelled, with a top-down map of the pitch overlaid at the bottom showing every player as a dot'
     title: 'From broadcast view to top-down map'
     text: 'Every tracked player is projected onto a top-down map of the pitch, straight from ordinary match video. Shape, spacing and distances between lines can be measured, not just watched.'
+    points:
+    - 'Team shape and compactness, phase by phase'
+    - 'Distances between the defensive, midfield and attacking lines'
+    - 'Who controls which space, and when it opens up'
   - image: img/screens/tracking-attack.jpg
     width: 980
     height: 490

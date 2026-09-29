@@ -127,11 +127,15 @@ gallery:
   items:
   - image: img/screens/top-down-map.jpg
     wide: true
-    width: 1148
+    width: 768
     height: 646
     alt: 'Mecz piłkarski z kamery telewizyjnej: każdy zawodnik zaznaczony kolorem drużyny i opisany, a u dołu nałożony widok boiska z góry, na którym każdy zawodnik jest kropką'
     title: 'Z obrazu telewizyjnego na widok z góry'
     text: 'Każdy śledzony zawodnik jest nanoszony na widok boiska z góry – prosto ze zwykłego nagrania meczu. Ustawienie, odległości i odstępy między formacjami można zmierzyć, a nie tylko oglądać.'
+    points:
+    - 'Ustawienie i zwartość zespołu w każdej fazie gry'
+    - 'Odległości między formacjami: obroną, pomocą i atakiem'
+    - 'Kto kontroluje którą przestrzeń i kiedy się ona otwiera'
   - image: img/screens/tracking-attack.jpg
     width: 980
     height: 490
