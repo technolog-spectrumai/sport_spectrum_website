@@ -1,18 +1,18 @@
 ---
-title: Sport Spectrum
+title: Kroton AI
 meta_title: Analyse sportive par IA, vision par ordinateur et prédictions
-meta_description: 'Sport Spectrum est un moteur d’IA pour les sports collectifs, en commençant par le football et le volley-ball. Il transforme les vidéos de matchs et d’entraînements en décisions claires pour les clubs, les entraîneurs et les fédérations : la vision par ordinateur tague chaque action, l’analyse explique ce qui fait gagner et les prédictions montrent la suite.'
+meta_description: 'Kroton AI est un moteur d’IA pour les sports collectifs, en commençant par le football et le volley-ball. Il transforme les vidéos de matchs et d’entraînements en décisions claires pour les clubs, les entraîneurs et les fédérations : la vision par ordinateur tague chaque action, l’analyse explique ce qui fait gagner et les prédictions montrent la suite.'
 labels:
   skip: Aller au contenu
   nav: Navigation principale
   language: Langue
   theme: Basculer entre thème clair et sombre
   menu: Ouvrir le menu
-  stats: Sport Spectrum en bref
+  stats: Kroton AI en bref
 brand:
-  name: Sport Spectrum
+  name: Kroton AI
   subtitle: L’IA pour le sport
-  home_label: Accueil Sport Spectrum
+  home_label: Accueil Kroton AI
 nav_cta: Demander une démo
 nav:
 - label: Valeur
@@ -31,14 +31,14 @@ hero:
   eyebrow: IA pour les sports collectifs · vision par ordinateur · analyse · prédictions
   title_before: Transformez la vidéo de match en
   title_span: décisions gagnantes.
-  lead: Sport Spectrum est un moteur d’IA pour les sports collectifs, en commençant par le football et le volley-ball. Il regarde pour vous chaque échange, chaque sprint et chaque phase arrêtée, et transforme les images que vous enregistrez déjà en réponses claires pour les entraîneurs, les joueurs et la direction. Vous voyez ce qui fonctionne, ce qui vous coûte et ce qui va probablement se passer ensuite.
+  lead: Kroton AI est un moteur d’IA pour les sports collectifs, en commençant par le football et le volley-ball. Il regarde pour vous chaque échange, chaque sprint et chaque phase arrêtée, et transforme les images que vous enregistrez déjà en réponses claires pour les entraîneurs, les joueurs et la direction. Vous voyez ce qui fonctionne, ce qui vous coûte et ce qui va probablement se passer ensuite.
   primary:
     label: Demander une démo
     href: '#contact'
   secondary:
     label: Voir ce que vous y gagnez
     href: '#value'
-  visual_label: 'Vue de match illustrative de Sport Spectrum : suivi des joueurs sur un terrain de volley et recommandation de l’IA pour l’entraîneur'
+  visual_label: 'Vue de match illustrative de Kroton AI : suivi des joueurs sur un terrain de volley et recommandation de l’IA pour l’entraîneur'
   telemetry:
   - Échange 47 · tagué auto
   - 12 joueurs suivis
@@ -72,7 +72,7 @@ ticker:
 value:
   kicker: La valeur
   title: Votre staff doit entraîner, pas taguer des vidéos.
-  text: Chaque club filme ses matchs. Peu ont le temps de les regarder vraiment. Les analystes passent leurs nuits à découper des clips, les enseignements arrivent quand le prochain adversaire est déjà dans le bus, et les données dorment dans des tableurs que personne n’ouvre. Sport Spectrum vous rend ce temps et le transforme en avantage.
+  text: Chaque club filme ses matchs. Peu ont le temps de les regarder vraiment. Les analystes passent leurs nuits à découper des clips, les enseignements arrivent quand le prochain adversaire est déjà dans le bus, et les données dorment dans des tableurs que personne n’ouvre. Kroton AI vous rend ce temps et le transforme en avantage.
   items:
   - title: Préparez plus vite
     text: Rapports adverses, playlists de clips et résumés de match arrivent en début de semaine, pour avoir le temps de travailler ce que vous avez trouvé.
@@ -85,7 +85,7 @@ value:
 platform:
   kicker: Plateforme
   title: 'Trois capacités. Une question : comment gagner ?'
-  text: Sport Spectrum voit le jeu, l’explique et anticipe. Commencez par la capacité dont votre équipe a le plus besoin. Les trois sont conçues pour grandir ensemble.
+  text: Kroton AI voit le jeu, l’explique et anticipe. Commencez par la capacité dont votre équipe a le plus besoin. Les trois sont conçues pour grandir ensemble.
   items:
   - icon: vision
     tag: Vision par ordinateur
@@ -122,8 +122,8 @@ platform:
 gallery:
   kicker: 'En action'
   title: 'Voyez-le sur de vraies images.'
-  text: 'Des captures de Sport Spectrum à l’œuvre sur des vidéos de matchs de football. Chaque joueur est détecté, suivi, rattaché à son équipe et placé sur une vue du terrain de dessus. C’est la matière première de chaque rapport, clip et prédiction.'
-  note: 'Images de retransmissions de matchs traitées par Sport Spectrum. Les marques des sponsors ont été retirées.'
+  text: 'Des captures de Kroton AI à l’œuvre sur des vidéos de matchs de football. Chaque joueur est détecté, suivi, rattaché à son équipe et placé sur une vue du terrain de dessus. C’est la matière première de chaque rapport, clip et prédiction.'
+  note: 'Images de retransmissions de matchs traitées par Kroton AI. Les marques des sponsors ont été retirées.'
   items:
   - image: img/screens/top-down-map.jpg
     wide: true
@@ -165,7 +165,7 @@ gallery:
 how:
   kicker: Comment ça marche
   title: De la vidéo à la décision du lundi matin.
-  text: Aucune nouvelle méthode de travail à apprendre. Sport Spectrum s’adapte à la façon dont votre staff prépare, joue et analyse déjà.
+  text: Aucune nouvelle méthode de travail à apprendre. Kroton AI s’adapte à la façon dont votre staff prépare, joue et analyse déjà.
   bullets:
   - Fonctionne avec les vidéos de matchs et d’entraînements que vous enregistrez déjà.
   - 'Chaque chiffre renvoie au clip dont il provient : les joueurs le voient au lieu de simplement l’entendre.'
@@ -185,7 +185,7 @@ how:
 predictions:
   kicker: Prédictions
   title: Savoir quand agir, pas seulement ce qui s’est passé.
-  text: Le recul est utile. L’anticipation gagne des matchs. Sport Spectrum transforme les tendances des matchs passés en signaux précoces sur lesquels votre staff peut agir tant que cela compte encore.
+  text: Le recul est utile. L’anticipation gagne des matchs. Kroton AI transforme les tendances des matchs passés en signaux précoces sur lesquels votre staff peut agir tant que cela compte encore.
   chart:
     title: Probabilité de gagner le set, échange après échange
     subtitle: Exemple illustratif · volley-ball, troisième set
@@ -231,7 +231,7 @@ teams:
 sports:
   kicker: Sports
   title: Football et volley aujourd’hui. D’autres sports ensuite.
-  text: 'Nous développons le moteur Sport Spectrum pour les sports collectifs, en commençant par le football et le volley-ball : des jeux rapides et structurés où chaque possession et chaque échange racontent une histoire. Nous prévoyons ensuite de l’étendre à d’autres sports.'
+  text: 'Nous développons le moteur Kroton AI pour les sports collectifs, en commençant par le football et le volley-ball : des jeux rapides et structurés où chaque possession et chaque échange racontent une histoire. Nous prévoyons ensuite de l’étendre à d’autres sports.'
   questions_label: Questions auxquelles nous aidons à répondre
   items:
   - icon: football
@@ -293,14 +293,14 @@ faq:
 contact:
   kicker: Contact
   title: Confiez-nous un match. Nous vous montrerons ce qu’il cache.
-  text: Parlez-nous d’un match récent et de la question qui empêche votre staff de dormir. Nous vous montrerons ce que voit Sport Spectrum, sur vos propres images.
+  text: Parlez-nous d’un match récent et de la question qui empêche votre staff de dormir. Nous vous montrerons ce que voit Kroton AI, sur vos propres images.
   email: technolog@spectrumai.pl
   location: Varsovie, Pologne
   affiliation: Membre de
   group_name: Spectrum Group
   group_url: https://spectrumai-website.pages.dev/
 signature:
-  label: Signature de marque Sport Spectrum
+  label: Signature de marque Kroton AI
   text: IA pour les sports collectifs · vision par ordinateur · analyse · prédictions
 footer:
   tagline: Transformer la vidéo de match en décisions gagnantes.
