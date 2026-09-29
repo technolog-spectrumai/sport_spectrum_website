@@ -40,9 +40,33 @@ hugo --gc --minify
 ```
 
 The generated site is written to `public/`. Tested with Hugo 0.118.2 and
-0.151.1; when deploying (Cloudflare Pages: build command `hugo --gc --minify`,
-output directory `public`) set `HUGO_VERSION=0.151.1` so the build image uses
-a known version.
+0.151.1.
+
+## Deploy (Netlify)
+
+`netlify.toml` holds the whole setup, so a new Netlify site only needs this
+repository connected; the build command, publish directory and Hugo version
+come from the file.
+
+- **Build:** `hugo --gc --minify --cleanDestinationDir -b $URL` with
+  `HUGO_VERSION = 0.151.1`. Netlify builds from source, so edits made
+  straight on GitHub go live without rebuilding `public/` by hand.
+  `--cleanDestinationDir` clears the committed `public/` first, so files
+  deleted from the source never linger on the live site.
+- **Addresses:** `$URL` is the site's primary address (the custom domain once
+  one is set in Netlify), so canonical links, hreflang and the sitemap always
+  point at the live domain. Deploy previews and branch deploys use their own
+  address. `baseURL` in `hugo.toml` is only used for local builds.
+- **Language redirect:** `/` sends Polish browsers to `/pl/`, French browsers
+  to `/fr/` and everyone else to `/en/` (302, based on the browser's first
+  preferred language).
+- **Headers:** `nosniff`, a strict referrer policy and `SAMEORIGIN` framing on
+  every page.
+
+If Netlify's Hugo download fails during a build, switch temporarily to
+publishing the committed build, as the Basilisk site does: rebuild `public/`
+locally with `hugo --gc --minify -b https://<your-domain>/`, commit it, and
+set `command = "echo 'Publishing prebuilt public/'"` in `netlify.toml`.
 
 ## Screenshots ("In action" section)
 

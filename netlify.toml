@@ -1,0 +1,48 @@
+# Netlify builds the site from source with a pinned Hugo version.
+# $URL is the site's primary address (the custom domain once one is set),
+# so canonical links, hreflang and the sitemap always match where the site
+# is served. --cleanDestinationDir clears the committed public/ first, so a
+# file deleted from the source never lingers on the live site.
+
+[build]
+  command = "hugo --gc --minify --cleanDestinationDir -b $URL"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.151.1"
+
+# Deploy previews and branch deploys use their own address.
+[context.deploy-preview]
+  command = "hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
+
+# Send visitors from the root to their browser language; English otherwise.
+# force = true because Hugo writes an index.html at the root.
+[[redirects]]
+  from = "/"
+  to = "/pl/"
+  status = 302
+  force = true
+  conditions = { Language = ["pl"] }
+
+[[redirects]]
+  from = "/"
+  to = "/fr/"
+  status = 302
+  force = true
+  conditions = { Language = ["fr"] }
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
