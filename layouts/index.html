@@ -1,0 +1,489 @@
+{{- $p := .Params -}}
+{{- $wp := .Site.Data.win_probability -}}
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ $p.brand.name }} | {{ $p.meta_title }}</title>
+  <meta name="description" content="{{ $p.meta_description }}" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f3f7f5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#050a09" media="(prefers-color-scheme: dark)" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  {{- range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+  {{- if eq .Lang "en" }}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+  {{- end }}
+  {{- end }}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{ $p.brand.name }}" />
+  <meta property="og:title" content="{{ $p.brand.name }} | {{ $p.meta_title }}" />
+  <meta property="og:description" content="{{ $p.meta_description }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:locale" content="{{ .Site.Language.LanguageCode | replaceRE "-" "_" }}" />
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script>
+    // Apply a saved theme before first paint so there is no flash.
+    try { var t = localStorage.getItem("sport-spectrum-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+    document.documentElement.classList.add("js");
+  </script>
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
+</head>
+<body>
+  <a class="skip" href="#main">{{ $p.labels.skip }}</a>
+  <div class="page">
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="{{ $p.brand.home_label }}">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40">
+              <defs>
+                <linearGradient id="ssMark" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" class="stop-a"/>
+                  <stop offset="1" class="stop-b"/>
+                </linearGradient>
+              </defs>
+              <circle cx="20" cy="20" r="15" fill="none" stroke="url(#ssMark)" stroke-width="3"/>
+              <path d="M20 5c-2.4 5.2-2.3 10 0 15M20 20c5.4.5 9.9 3.1 13.1 7.4M20 20c-3.2 4.2-7.9 6.6-13.3 7.1" fill="none" stroke="url(#ssMark)" stroke-width="2.4" stroke-linecap="round"/>
+              <circle class="mark-dot" cx="20" cy="20" r="3"/>
+            </svg>
+          </span>
+          <span class="brand-text"><strong>{{ $p.brand.name }}</strong><small>{{ $p.brand.subtitle }}</small></span>
+        </a>
+
+        <nav class="nav-links" id="navLinks" aria-label="{{ $p.labels.nav }}">
+          {{- range $p.nav }}
+          <a href="{{ .href }}">{{ .label }}</a>
+          {{- end }}
+        </nav>
+
+        <div class="nav-actions">
+          <nav class="language-switcher" aria-label="{{ $p.labels.language }}">
+            {{- range .AllTranslations }}
+            <a {{ if eq .Lang $.Lang }}class="active" aria-current="page" {{ end }}href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}" title="{{ .Language.LanguageName }}">{{ upper .Lang }}</a>
+            {{- end }}
+          </nav>
+          <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="{{ $p.labels.theme }}">
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="moon" viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.8 6.8 0 0 0 21 12.8Z"/></svg>
+          </button>
+          <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-label="{{ $p.labels.menu }}" aria-expanded="false" aria-controls="navLinks">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          </button>
+          <a class="btn btn-primary nav-cta" href="#contact">{{ $p.nav_cta }}</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">{{ $p.hero.eyebrow }}</div>
+            <h1>{{ $p.hero.title_before }} <span>{{ $p.hero.title_span }}</span></h1>
+            <p class="lead">{{ $p.hero.lead }}</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="{{ $p.hero.primary.href }}">{{ $p.hero.primary.label }}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-ghost" href="{{ $p.hero.secondary.href }}">{{ $p.hero.secondary.label }}</a>
+            </div>
+          </div>
+
+          <figure class="stage" aria-label="{{ $p.hero.visual_label }}">
+            <div class="stage-top" aria-hidden="true">
+              <div class="telemetry">
+                {{- range $p.hero.telemetry }}<span>{{ . }}</span>{{- end }}
+              </div>
+              <div class="prob-chip">
+                <span>{{ $p.hero.probability.label }}</span>
+                <strong>{{ $p.hero.probability.value }}<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 8l4-4 4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></strong>
+              </div>
+            </div>
+
+            <svg class="court" viewBox="0 0 600 320" aria-hidden="true">
+              <defs>
+                <radialGradient id="heatZone">
+                  <stop offset="0" class="heat-stop" stop-opacity=".55"/>
+                  <stop offset=".6" class="heat-stop" stop-opacity=".18"/>
+                  <stop offset="1" class="heat-stop" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <rect class="court-floor" x="60" y="40" width="480" height="240" rx="3"/>
+              <ellipse cx="480" cy="92" rx="72" ry="52" fill="url(#heatZone)"/>
+              <rect class="court-line" x="60" y="40" width="480" height="240" rx="3"/>
+              <path class="court-line thin" d="M220 40v240M380 40v240"/>
+              <path class="court-net" d="M300 26v268"/>
+              <circle class="net-post" cx="300" cy="26" r="4"/>
+              <circle class="net-post" cx="300" cy="294" r="4"/>
+              <text class="court-label" x="480" y="60" text-anchor="middle">{{ $p.hero.zone }}</text>
+
+              <path class="ball-path" id="ballPath" d="M44 226 Q 250 -10 470 98"/>
+
+              <g class="team-home">
+                <circle cx="36" cy="232" r="9"/>
+                <circle cx="150" cy="112" r="9"/>
+                <circle cx="150" cy="210" r="9"/>
+                <circle cx="264" cy="90" r="9"/>
+                <circle cx="264" cy="160" r="9"/>
+                <circle cx="264" cy="232" r="9"/>
+              </g>
+              <g class="team-away">
+                <circle cx="348" cy="74" r="9"/>
+                <circle cx="402" cy="152" r="9"/>
+                <circle cx="398" cy="238" r="9"/>
+                <circle cx="470" cy="104" r="9"/>
+                <circle cx="462" cy="186" r="9"/>
+                <circle cx="476" cy="256" r="9"/>
+              </g>
+
+              <circle class="pulse" cx="470" cy="104" r="14"/>
+              <g class="track">
+                <rect x="452" y="86" width="36" height="36" rx="4"/>
+                <text x="452" y="80">#7</text>
+                <rect x="18" y="214" width="36" height="36" rx="4"/>
+                <text x="18" y="208">#11</text>
+                <rect x="384" y="134" width="36" height="36" rx="4"/>
+                <text x="384" y="128">#4</text>
+              </g>
+
+              <circle class="ball" r="6">
+                <animateMotion dur="3.4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.7;1" calcMode="linear">
+                  <mpath href="#ballPath" xlink:href="#ballPath" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </animateMotion>
+              </circle>
+            </svg>
+
+            <figcaption class="stage-card">
+              <span class="stage-chip" aria-hidden="true">{{ partial "icon.html" "predictions" }}</span>
+              <span class="stage-copy">
+                <em>{{ $p.hero.insight.kicker }}</em>
+                <strong>{{ $p.hero.insight.text }}</strong>
+                <small>{{ $p.hero.insight.note }}</small>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="container">
+          <div class="stats" aria-label="{{ $p.labels.stats }}">
+            {{- range $p.stats }}
+            <div class="stat"><strong>{{ .value }}</strong><span>{{ .label }}</span></div>
+            {{- end }}
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          {{- range seq 2 }}
+          <div class="ticker-set">
+            {{- range $p.ticker }}<span>{{ . }}</span><i></i>{{- end }}
+          </div>
+          {{- end }}
+        </div>
+      </div>
+
+      <!-- Value -->
+      <section id="value">
+        <div class="container split value-split">
+          <div class="section-head">
+            <span class="kicker">{{ $p.value.kicker }}</span>
+            <h2>{{ $p.value.title }}</h2>
+            <p>{{ $p.value.text }}</p>
+          </div>
+          <div class="value-grid">
+            {{- range $i, $v := $p.value.items }}
+            <article class="value-card reveal">
+              <em>{{ printf "%02d" (add $i 1) }}</em>
+              <h3>{{ $v.title }}</h3>
+              <p>{{ $v.text }}</p>
+            </article>
+            {{- end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Platform -->
+      <section id="platform" class="band">
+        <div class="container">
+          <div class="section-head center">
+            <span class="kicker">{{ $p.platform.kicker }}</span>
+            <h2>{{ $p.platform.title }}</h2>
+            <p>{{ $p.platform.text }}</p>
+          </div>
+          <div class="cards">
+            {{- range $p.platform.items }}
+            <article class="card product-card reveal">
+              <div class="icon">{{ partial "icon.html" .icon }}</div>
+              <span class="tag">{{ .tag }}</span>
+              <h3>{{ .name }}</h3>
+              <p>{{ .text }}</p>
+              <ul class="check-list">
+                {{- range .points }}<li>{{ . }}</li>{{- end }}
+              </ul>
+            </article>
+            {{- end }}
+          </div>
+          <div class="synergy-card reveal">
+            <div>
+              <span class="kicker">{{ $p.platform.synergy.title }}</span>
+              <p>{{ $p.platform.synergy.text }}</p>
+            </div>
+            <ul class="check-list">
+              {{- range $p.platform.synergy.points }}<li>{{ . }}</li>{{- end }}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- In action: stills from product videos (shown only once image files exist in static/) -->
+      {{- $shots := slice -}}
+      {{- range $p.gallery.items }}{{ if fileExists (printf "static/%s" .image) }}{{ $shots = $shots | append . }}{{ end }}{{ end }}
+      {{- if $shots }}
+      <section id="in-action">
+        <div class="container">
+          <div class="section-head">
+            <span class="kicker">{{ $p.gallery.kicker }}</span>
+            <h2>{{ $p.gallery.title }}</h2>
+            <p>{{ $p.gallery.text }}</p>
+          </div>
+          <div class="shots">
+            {{- range $i, $s := $shots }}
+            <figure class="shot reveal{{ if eq $i 0 }} is-lead{{ end }}">
+              <a href="{{ $s.image | relURL }}" target="_blank" rel="noopener">
+                <img src="{{ $s.image | relURL }}" alt="{{ $s.alt }}" loading="lazy" decoding="async"{{ with $s.width }} width="{{ . }}"{{ end }}{{ with $s.height }} height="{{ . }}"{{ end }} />
+              </a>
+              <figcaption><strong>{{ $s.title }}</strong><span>{{ $s.text }}</span></figcaption>
+            </figure>
+            {{- end }}
+          </div>
+        </div>
+      </section>
+      {{- end }}
+
+      <!-- How it works -->
+      <section id="how">
+        <div class="container split how-split">
+          <div class="panel">
+            <span class="kicker">{{ $p.how.kicker }}</span>
+            <h2>{{ $p.how.title }}</h2>
+            <p>{{ $p.how.text }}</p>
+            <ul class="check-list panel-list">
+              {{- range $p.how.bullets }}<li>{{ . }}</li>{{- end }}
+            </ul>
+          </div>
+          <ol class="steps">
+            {{- range $i, $s := $p.how.steps }}
+            <li class="step reveal">
+              <span class="step-number">{{ printf "%02d" (add $i 1) }}</span>
+              <div><h3>{{ $s.title }}</h3><p>{{ $s.text }}</p></div>
+            </li>
+            {{- end }}
+          </ol>
+        </div>
+      </section>
+
+      <!-- Predictions -->
+      <section id="predictions" class="band">
+        <div class="container">
+          <div class="section-head">
+            <span class="kicker">{{ $p.predictions.kicker }}</span>
+            <h2>{{ $p.predictions.title }}</h2>
+            <p>{{ $p.predictions.text }}</p>
+          </div>
+          <div class="predict-grid">
+            {{- with $p.predictions.chart }}
+            <figure class="chart-card reveal">
+              <figcaption class="chart-head">
+                <strong>{{ .title }}</strong>
+                <span>{{ .subtitle }}</span>
+              </figcaption>
+              <div class="chart" id="winChart"
+                data-series="{{ $wp.series | jsonify }}"
+                data-event="{{ $wp.event }}"
+                data-event-label="{{ .event }}"
+                data-x-label="{{ .x_label }}"
+                data-y-label="{{ .y_label }}"
+                data-low-label="{{ .low }}"
+                data-pct="{{ .pct }}">
+                <div class="chart-tip" role="status" aria-live="polite" hidden></div>
+              </div>
+              <details class="chart-table">
+                <summary>{{ .table_toggle }}</summary>
+                <div class="table-scroll">
+                  <table>
+                    <caption>{{ .table_caption }}</caption>
+                    <thead><tr><th scope="col">{{ .x_label }}</th><th scope="col">{{ .y_label }}</th></tr></thead>
+                    <tbody>
+                      {{- range $i, $v := $wp.series }}
+                      <tr{{ if eq (add $i 1) $wp.event }} class="is-event"{{ end }}><td>{{ add $i 1 }}</td><td>{{ $v }}{{ $.Params.predictions.chart.pct }}</td></tr>
+                      {{- end }}
+                    </tbody>
+                  </table>
+                </div>
+              </details>
+            </figure>
+            {{- end }}
+            <div class="predict-items">
+              {{- range $p.predictions.items }}
+              <article class="predict-item reveal">
+                <h3>{{ .title }}</h3>
+                <p>{{ .text }}</p>
+              </article>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Who it's for -->
+      <section id="teams">
+        <div class="container">
+          <div class="section-head center">
+            <span class="kicker">{{ $p.teams.kicker }}</span>
+            <h2>{{ $p.teams.title }}</h2>
+            <p>{{ $p.teams.text }}</p>
+          </div>
+          <div class="role-grid">
+            {{- range $p.teams.items }}
+            <article class="role-card reveal">
+              <span class="tag">{{ .kicker }}</span>
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+            </article>
+            {{- end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Sports -->
+      <section id="sports" class="band">
+        <div class="container">
+          <div class="section-head">
+            <span class="kicker">{{ $p.sports.kicker }}</span>
+            <h2>{{ $p.sports.title }}</h2>
+            <p>{{ $p.sports.text }}</p>
+          </div>
+          <div class="sport-grid">
+            {{- range $p.sports.items }}
+            <article class="sport-card reveal{{ if .badge }} is-focus{{ end }}{{ if .next }} is-next{{ end }}">
+              {{- with .badge }}<span class="badge">{{ . }}</span>{{ end }}
+              <div class="sport-head">
+                <span class="sport-icon">{{ partial "icon.html" .icon }}</span>
+                <h3>{{ .name }}</h3>
+              </div>
+              {{- if .questions }}
+              <p class="sport-label">{{ $p.sports.questions_label }}</p>
+              <ul>
+                {{- range .questions }}<li>{{ . }}</li>{{- end }}
+              </ul>
+              {{- end }}
+              {{- with .text }}<p class="sport-text">{{ . }}</p>{{ end }}
+              {{- with .cta }}<a class="text-link" href="#contact">{{ . }} <span aria-hidden="true">→</span></a>{{ end }}
+            </article>
+            {{- end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Getting started -->
+      <section id="pilot">
+        <div class="container pilot-grid">
+          <div>
+            <div class="section-head">
+              <span class="kicker">{{ $p.pilot.kicker }}</span>
+              <h2>{{ $p.pilot.title }}</h2>
+              <p>{{ $p.pilot.text }}</p>
+            </div>
+            <ol class="timeline">
+              {{- range $i, $s := $p.pilot.steps }}
+              <li class="timeline-item reveal"><span>{{ add $i 1 }}</span><div><strong>{{ $s.title }}</strong><p>{{ $s.text }}</p></div></li>
+              {{- end }}
+            </ol>
+          </div>
+          <aside class="principles reveal">
+            <h3>{{ $p.pilot.principles_title }}</h3>
+            <ul>
+              {{- range $p.pilot.principles }}
+              <li><span class="principle-icon">{{ partial "icon.html" "check" }}</span><div><strong>{{ .title }}</strong><p>{{ .text }}</p></div></li>
+              {{- end }}
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="band">
+        <div class="container faq-grid">
+          <div class="section-head">
+            <span class="kicker">{{ $p.faq.kicker }}</span>
+            <h2>{{ $p.faq.title }}</h2>
+          </div>
+          <div class="faq-list">
+            {{- range $p.faq.items }}
+            <details class="faq-item">
+              <summary>{{ .q }}</summary>
+              <p>{{ .a }}</p>
+            </details>
+            {{- end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="cta">
+        <div class="container">
+          <div class="cta-box">
+            <span class="kicker">{{ $p.contact.kicker }}</span>
+            <h2>{{ $p.contact.title }}</h2>
+            <p>{{ $p.contact.text }}</p>
+            <a class="btn btn-primary btn-lg" href="mailto:{{ $p.contact.email }}">{{ partial "icon.html" "mail" }}{{ $p.contact.email }}</a>
+            <div class="cta-meta">
+              <span>{{ partial "icon.html" "pin" }}{{ $p.contact.location }}</span>
+              <span>{{ $p.contact.affiliation }} <a href="{{ $p.contact.group_url }}" target="_blank" rel="noopener noreferrer">{{ $p.contact.group_name }}</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand-signature" aria-label="{{ $p.signature.label }}">
+        <div class="container brand-signature-inner">
+          <div class="signature-ball" aria-hidden="true">
+            <span class="signature-glow"></span>
+            <svg viewBox="0 0 200 200">
+              <circle class="sig-ring" cx="100" cy="100" r="92"/>
+              <circle class="sig-ring dashed" cx="100" cy="100" r="74"/>
+              <circle class="sig-ball" cx="100" cy="100" r="52"/>
+              <path class="sig-seam" d="M100 48c-9 18-9 36 0 52M100 100c19 2 35 11 45 26M100 100c-11 15-28 24-46 26"/>
+              <circle class="sig-dot" cx="100" cy="100" r="7"/>
+              <circle class="sig-spark a" cx="170" cy="58" r="5"/>
+              <circle class="sig-spark b" cx="36" cy="140" r="4"/>
+            </svg>
+          </div>
+          <div class="signature-wordmark">
+            <strong>{{ $p.brand.name }}</strong>
+            <span>{{ $p.signature.text }}</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© {{ now.Year }} {{ $p.brand.name }}. {{ $p.footer.rights }}</div>
+        <div>{{ $p.footer.tagline }}</div>
+      </div>
+    </footer>
+  </div>
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+</body>
+</html>
